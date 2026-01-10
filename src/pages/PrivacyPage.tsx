@@ -9,11 +9,14 @@ export default function PrivacyPage() {
   return (
     <>
       <SEOHead
-        title={t('privacy.seoTitle', `Privacy Policy - ${APP_NAME}`)}
-        description={t(
-          'privacy.seoDescription',
-          `Privacy policy for ${APP_NAME}. Learn how we protect your data and respect your privacy.`
-        )}
+        title={t('privacy.seoTitle', {
+          appName: APP_NAME,
+          defaultValue: `Privacy Policy - ${APP_NAME}`,
+        })}
+        description={t('privacy.seoDescription', {
+          appName: APP_NAME,
+          defaultValue: `Privacy policy for ${APP_NAME}. Learn how we protect your data and respect your privacy.`,
+        })}
         keywords={['privacy policy', 'data protection', 'GDPR', 'crypto wallet privacy']}
       />
       <ScreenContainer>
@@ -33,10 +36,10 @@ export default function PrivacyPage() {
                   {t('privacy.introduction.title', 'Introduction')}
                 </h2>
                 <p className="text-gray-600 dark:text-gray-300">
-                  {t(
-                    'privacy.introduction.content',
-                    `${APP_NAME} ("we", "our", or "us") respects your privacy and is committed to protecting your personal data. This privacy policy explains how we collect, use, and safeguard your information when you use our wallet application.`
-                  )}
+                  {t('privacy.introduction.content', {
+                    appName: APP_NAME,
+                    defaultValue: `${APP_NAME} ("we", "our", or "us") respects your privacy and is committed to protecting your personal data. This privacy policy explains how we collect, use, and safeguard your information when you use our wallet application.`,
+                  })}
                 </p>
               </section>
 
@@ -53,7 +56,10 @@ export default function PrivacyPage() {
                 <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2">
                   <li>{t('privacy.dataCollection.item1', 'Wallet addresses you connect')}</li>
                   <li>
-                    {t('privacy.dataCollection.item2', 'Transaction data visible on public blockchains')}
+                    {t(
+                      'privacy.dataCollection.item2',
+                      'Transaction data visible on public blockchains'
+                    )}
                   </li>
                   <li>{t('privacy.dataCollection.item3', 'Usage analytics (anonymized)')}</li>
                   <li>{t('privacy.dataCollection.item4', 'Device information for security')}</li>
@@ -111,7 +117,7 @@ export default function PrivacyPage() {
                 </p>
                 <div className="mt-4 p-4 bg-gray-100 dark:bg-gray-800 rounded-lg">
                   <p className="text-gray-700 dark:text-gray-300">
-                    Email:{' '}
+                    {t('email', 'Email')}:{' '}
                     <a
                       href={`mailto:${CONSTANTS.PRIVACY_EMAIL}`}
                       className="text-blue-600 hover:text-blue-800 dark:text-blue-400"

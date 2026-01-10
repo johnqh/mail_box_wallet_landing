@@ -1,102 +1,102 @@
 {
   "seo": {
-    "title": "Signic ID - Personal ID with Crypto Technologies",
-    "description": "Secure crypto wallet and decentralized identity solution. Own your digital identity, manage assets across chains, and authenticate across Web3 seamlessly."
+    "title": "Signic ID - บัตรประจำตัวส่วนตัวที่ใช้เทคโนโลยีคริปโต",
+    "description": "กระเป๋าเงินคริปโตที่ปลอดภัยและโซลูชันเอกลักษณ์แบบกระจายศูนย์ ควบคุมเอกลักษณ์ดิจิทัลของคุณ จัดการสินทรัพย์ข้ามโซ่เครือข่าย และยืนยันตัวตนอย่างราบรื่นใน Web3"
   },
   "hero": {
-    "badge": "Your Identity, Your Control",
-    "title": "Personal ID",
-    "subtitle": "with Crypto Technologies",
-    "description": "A secure wallet and decentralized identity solution. Own your digital identity, manage your assets, and authenticate across Web3 seamlessly.",
-    "cta": "Get Started",
-    "learnMore": "Learn More",
+    "badge": "อัตลักษณ์ของคุณ ความเป็นเจ้าของของคุณ",
+    "title": "เลขประจำตัวบุคคล",
+    "subtitle": "พร้อมเทคโนโลยีคริปโต",
+    "description": "โซลูชันกระเป๋าเงินปลอดภัยและระบบรู้จักตัวตนแบบกระจายศูนย์ ควบคุมตัวตนดิจิทัลของคุณ จัดการสินทรัพย์ของคุณ และยืนยันตัวตนผ่าน Web3 ได้อย่างราบรื่น",
+    "cta": "เริ่มต้นใช้งาน",
+    "learnMore": "เรียนรู้เพิ่มเติม",
     "trust": {
-      "secure": "Secure & Private",
-      "multiChain": "Multi-Chain",
-      "selfSovereign": "Self-Sovereign"
+      "secure": "ปลอดภัยและส่วนตัว",
+      "multiChain": "หลายห่วงโซ่",
+      "selfSovereign": "อิสระภาพตนเอง"
     }
   },
   "features": {
-    "title": "Everything You Need",
-    "description": "A complete solution for managing your digital identity and crypto assets in one place.",
+    "title": "ทุ่งสิ่งที่คุณต้องการ",
+    "description": "โซลูชันครบวงจรสำหรับการจัดการตัวตนดิจิทัลและสินทรัพย์คริปโตของคุณในที่เดียว",
     "wallet": {
-      "title": "Secure Crypto Wallet",
-      "description": "Store and manage your digital assets securely across multiple blockchain networks with industry-leading security."
+      "title": "กระเป๋าสตางค์คริปโตที่ปลอดภัย",
+      "description": "เก็บรักษาและจัดการสินทรัพย์ดิจิทัลของคุณอย่างปลอดภัยข้ามเครือข่ายบล็อกเชนหลายเครือข่ายด้วยความปลอดภัยชั้นนำของอุตสาหกรรม"
     },
     "identity": {
-      "title": "Decentralized Identity",
-      "description": "Own your identity on-chain. Cryptographically verified and controlled entirely by you, not by corporations."
+      "title": "อัตลักษณ์แบบกระจายศูนย์",
+      "description": "เป็นเจ้าของตัวตนของคุณบนบล็อกเชน ยืนยันตัวตนด้วยการเข้ารหัสและควบคุมได้ทั้งหมดโดยคุณ ไม่ใช่โดยบริษัท"
     },
     "multiChain": {
-      "title": "Multi-Chain Support",
-      "description": "Works seamlessly across Ethereum, Solana, and other major blockchains. One wallet for all your chains."
+      "title": "การรองรับหลายโซ่หลายห่วงโซ่",
+      "description": "ทำงานได้อย่างราบรื่นบนบล็อกเชนหลักต่างๆ เช่น Ethereum, Solana และอื่นๆ อีกมากมาย กระเป๋าเงินเดียว สำหรับทุกบล็อกเชนของคุณ"
     },
     "names": {
-      "title": "Human-Readable Names",
-      "description": "Use ENS, SNS, and other naming services. Share your identity easily with memorable names instead of long addresses."
+      "title": "ชื่อที่อ่านง่าย",
+      "description": "ใช้ ENS, SNS และบริการชื่ออื่นๆ แชร์ตัวตนของคุณได้อย่างง่ายดายด้วยชื่อที่จดจำได้แทนที่จะเป็นที่อยู่ยาวๆ"
     },
     "privacy": {
-      "title": "Privacy Controls",
-      "description": "Choose what to share and what to keep private. Selective disclosure puts you in complete control of your data."
+      "title": "การควบคุมความเป็นส่วนตัว",
+      "description": "เลือกว่าจะแชร์อะไรและจะเก็บข้อมูลส่วนตัวไว้ ความโปร่งใสแบบเลือกได้ทำให้คุณมีการควบคุมข้อมูลของคุณอย่างสมบูรณ์"
     },
     "credentials": {
-      "title": "Portable Credentials",
-      "description": "Attach verifiable credentials to your identity. Use them across any Web3 application without creating new accounts."
+      "title": "ใบรับรองแบบพกพา",
+      "description": "แนบสิทธิ์ยืนยันตัวตนที่สามารถตรวจสอบได้กับบัญชีของคุณ ใช้สิทธิ์เหล่านั้นในแอปพลิเคชันใดก็ตามที่รองรับ Web3 โดยไม่จำเป็นต้องสร้างบัญชีใหม่"
     }
   },
   "howItWorks": {
-    "title": "How It Works",
-    "description": "Get started in four simple steps and take control of your digital identity.",
+    "title": "วิธีการทำงาน",
+    "description": "เริ่มต้นในสี่ขั้นตอนง่ายๆ และควบคุมตัวตนดิจิทัลของคุณเอง",
     "steps": {
       "create": {
-        "title": "Create Your Wallet",
-        "description": "Generate a secure crypto wallet with military-grade encryption. Your keys, your coins, your control."
+        "title": "สร้างกระเป๋าสตางค์ของคุณ",
+        "description": "สร้างกระเป๋าสตางค์คริปโตที่ปลอดภัยด้วยการเข้ารหัสระดับทหาร คีย์ของคุณ คริปโตของคุณ ความควบคุมของคุณ"
       },
       "claim": {
-        "title": "Claim Your Identity",
-        "description": "Register your unique on-chain identifier. Choose a memorable name that represents you in Web3."
+        "title": "รับสิทธิ์ในตัวตนของคุณ",
+        "description": "ลงทะเบียนตัวระบุแบบเชิงโซ่ที่ไม่ซ้ำกันของคุณ เลือกชื่อที่จำได้ง่าย ซึ่งสื่อถึงตัวคุณใน Web3"
       },
       "add": {
-        "title": "Add Credentials",
-        "description": "Attach verifiable credentials to your identity. Prove who you are without revealing everything."
+        "title": "เพิ่มข้อมูลรับรอง",
+        "description": "แนบสิทธิ์ยืนยันตัวตนไว้กับตัวตนของคุณ ยืนยันตัวตนของคุณโดยไม่ต้องเปิดเผยทุกอย่าง"
       },
       "use": {
-        "title": "Use Everywhere",
-        "description": "Authenticate across Web3 apps seamlessly. One identity for the entire decentralized web."
+        "title": "ใช้ได้ทุกที่",
+        "description": "ยืนยันตัวตนผ่านแอปพลิเคชัน Web3 ได้อย่างราบรื่น บัญชีเดียวสำหรับเว็บแบบกระจายศูนย์ทั้งหมด"
       }
     }
   },
   "faq": {
-    "title": "Frequently Asked Questions",
-    "description": "Got questions? We have answers.",
+    "title": "คำถามที่พบบ่อย",
+    "description": "มีคำถามไหม? เรามีคำตอบ",
     "items": {
       "different": {
-        "question": "What makes this different from regular wallets?",
-        "answer": "Signic ID combines a secure crypto wallet with a decentralized identity layer. Unlike regular wallets that only store assets, we provide a complete identity solution that lets you prove who you are, manage credentials, and authenticate across Web3 - all while maintaining full control of your data."
+        "question": "สิ่งที่ทำให้สิ่งนี้ต่างจากกระเป๋าสตางค์ทั่วไปคืออะไร?",
+        "answer": "Signic ID ผสานกระเป๋าเงินคริปโตที่ปลอดภัยเข้ากับชั้นตัวตนแบบกระจายศูนย์ ต่างจากกระเป๋าเงินทั่วไปที่เก็บสินทรัพย์เพียงอย่างเดียว เรามอบโซลูชันตัวตนครบวงจร ที่ช่วยให้คุณพิสูจน์ตัวตนของคุณ จัดการเอกสารรับรอง และยืนยันตัวตนใน Web3 ได้ทั้งหมด พร้อมรักษาการควบคุมข้อมูลของคุณอย่างสมบูรณ์"
       },
       "security": {
-        "question": "How is my data secured?",
-        "answer": "Your private keys are encrypted locally and never leave your device. We use industry-standard cryptographic algorithms and support hardware wallet integration for additional security. Your identity data is stored on decentralized networks, not on our servers."
+        "question": "ข้อมูลของฉันได้รับการรักษาความปลอดภัยอย่างไร?",
+        "answer": "กุญแจส่วนตัวของคุณถูกเข้ารหัสไว้ที่อุปกรณ์ของคุณเท่านั้น และไม่มีการส่งออกอุปกรณ์ของคุณ เราใช้อัลกอริธึมการเข้ารหัสขั้นสูงตามมาตรฐานอุตสาหกรรม และรองรับการเชื่อมต่อกับกระเป๋าเงินฮาร์ดแวร์เพื่อความปลอดภัยเพิ่มเติม ข้อมูลประจำตัวของคุณถูกเก็บไว้ในเครือข่ายแบบกระจายศูนย์ ไม่ได้ถูกเก็บไว้บนเซิร์ฟเวอร์ของเรา"
       },
       "chains": {
-        "question": "Which blockchains are supported?",
-        "answer": "We support Ethereum, Solana, and all major EVM-compatible chains including Polygon, Arbitrum, Optimism, Base, and more. Our multi-chain architecture lets you manage assets across all networks from a single interface."
+        "question": "มีบล็อกเชนใดบ้างที่รองรับ?",
+        "answer": "เราสนับสนุน Ethereum, Solana และโซเชียลเชน EVM หลักทั้งหมด รวมถึง Polygon, Arbitrum, Optimism, Base และอื่นๆ อีกมากมาย สถาปัตยกรรมหลายโซเชียลเชนของเราช่วยให้คุณจัดการสินทรัพย์ทั้งหมดข้ามเครือข่ายทั้งหมดจากอินเทอร์เฟซเดียวได้"
       },
       "recovery": {
-        "question": "Can I recover my identity if I lose access?",
-        "answer": "Yes. We support multiple recovery options including seed phrase backup, social recovery through trusted contacts, and hardware wallet backup. Your identity is linked to your cryptographic keys, so as long as you can recover your keys, you can recover your identity."
+        "question": "ฉันสามารถกู้คืนตัวตนของฉันได้หรือไม่ หากสูญเสียการเข้าถึง?",
+        "answer": "ใช่ เราสนับสนุนตัวเลือกการกู้คืนหลายรูปแบบ ได้แก่ การสำรองข้อความเมล็ดพันธุ์ การกู้คืนผ่านผู้ติดต่อที่ไว้ใจได้ และการสำรองกระเป๋าเงินฮาร์ดแวร์ ตัวตนของคุณเชื่อมโยงกับคีย์เข้ารหัสของคุณ ดังนั้นตราบใดที่คุณสามารถกู้คืนคีย์ของคุณได้ คุณก็สามารถกู้คืนตัวตนของคุณได้"
       },
       "cost": {
-        "question": "Is there a cost to use the service?",
-        "answer": "The basic wallet and identity features are free to use. Some advanced features like premium naming services or enterprise integrations may have associated costs. Network transaction fees (gas) apply when interacting with blockchains."
+        "question": "มีค่าใช้จ่ายในการใช้บริการหรือไม่?",
+        "answer": "คุณสมบัติเบื้องต้นด้านกระเป๋าเงินและตัวตนใช้งานได้ฟรี คุณสมบัติขั้นสูงบางอย่าง เช่น บริการตั้งชื่อระดับพรีเมียม หรือการผสานระบบสำหรับองค์กร อาจมีค่าใช้จ่ายเกี่ยวข้อง ค่าธรรมเนียมการส่งข้อมูลเครือข่าย (gas) จะถูกเรียกเก็บเมื่อทำการโต้ตอบกับบล็อกเชน"
       }
     }
   },
   "cta": {
-    "badge": "Start Your Web3 Journey",
-    "title": "Ready to Take Control?",
-    "description": "Join thousands of users who have already secured their digital identity with Signic ID.",
-    "button": "Get Started Now",
-    "subtext": "Free to use. No credit card required."
+    "badge": "เริ่มต้นการเดินทางของคุณสู่ Web3",
+    "title": "พร้อมที่จะควบคุมสถานการณ์หรือยัง?",
+    "description": "เข้าร่วมกับผู้ใช้งานหลายพันคนที่ได้รับการยืนยันตัวตนดิจิทัลของตนแล้วด้วย Signic ID",
+    "button": "เริ่มต้นได้ทันที",
+    "subtext": "ใช้ได้ฟรี ไม่ต้องใช้บัตรเครดิต"
   }
 }

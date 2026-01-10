@@ -9,12 +9,20 @@ export default function TermsPage() {
   return (
     <>
       <SEOHead
-        title={t('terms.seoTitle', `Terms of Service - ${APP_NAME}`)}
-        description={t(
-          'terms.seoDescription',
-          `Terms of service for ${APP_NAME}. Read our terms and conditions for using our crypto wallet service.`
-        )}
-        keywords={['terms of service', 'terms and conditions', 'crypto wallet terms', 'user agreement']}
+        title={t('terms.seoTitle', {
+          appName: APP_NAME,
+          defaultValue: `Terms of Service - ${APP_NAME}`,
+        })}
+        description={t('terms.seoDescription', {
+          appName: APP_NAME,
+          defaultValue: `Terms of service for ${APP_NAME}. Read our terms and conditions for using our crypto wallet service.`,
+        })}
+        keywords={[
+          'terms of service',
+          'terms and conditions',
+          'crypto wallet terms',
+          'user agreement',
+        ]}
       />
       <ScreenContainer>
         <main className="py-12 px-4 sm:px-6 lg:px-8">
@@ -33,10 +41,10 @@ export default function TermsPage() {
                   {t('terms.acceptance.title', 'Acceptance of Terms')}
                 </h2>
                 <p className="text-gray-600 dark:text-gray-300">
-                  {t(
-                    'terms.acceptance.content',
-                    `By accessing or using ${APP_NAME}, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our service.`
-                  )}
+                  {t('terms.acceptance.content', {
+                    appName: APP_NAME,
+                    defaultValue: `By accessing or using ${APP_NAME}, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our service.`,
+                  })}
                 </p>
               </section>
 
@@ -45,10 +53,10 @@ export default function TermsPage() {
                   {t('terms.description.title', 'Service Description')}
                 </h2>
                 <p className="text-gray-600 dark:text-gray-300">
-                  {t(
-                    'terms.description.content',
-                    `${APP_NAME} is a non-custodial cryptocurrency wallet that allows you to manage your digital assets and decentralized identity. We do not hold your private keys or have access to your funds.`
-                  )}
+                  {t('terms.description.content', {
+                    appName: APP_NAME,
+                    defaultValue: `${APP_NAME} is a non-custodial cryptocurrency wallet that allows you to manage your digital assets and decentralized identity. We do not hold your private keys or have access to your funds.`,
+                  })}
                 </p>
               </section>
 
@@ -62,7 +70,10 @@ export default function TermsPage() {
                 <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2">
                   <li>{t('terms.eligibility.item1', 'Be at least 18 years old')}</li>
                   <li>
-                    {t('terms.eligibility.item2', 'Have the legal capacity to enter into this agreement')}
+                    {t(
+                      'terms.eligibility.item2',
+                      'Have the legal capacity to enter into this agreement'
+                    )}
                   </li>
                   <li>
                     {t(
@@ -82,13 +93,22 @@ export default function TermsPage() {
                 </p>
                 <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2">
                   <li>
-                    {t('terms.responsibilities.item1', 'Safeguarding your private keys and recovery phrases')}
+                    {t(
+                      'terms.responsibilities.item1',
+                      'Safeguarding your private keys and recovery phrases'
+                    )}
                   </li>
                   <li>
-                    {t('terms.responsibilities.item2', 'All activities that occur under your wallet')}
+                    {t(
+                      'terms.responsibilities.item2',
+                      'All activities that occur under your wallet'
+                    )}
                   </li>
                   <li>
-                    {t('terms.responsibilities.item3', 'Complying with applicable laws and regulations')}
+                    {t(
+                      'terms.responsibilities.item3',
+                      'Complying with applicable laws and regulations'
+                    )}
                   </li>
                   <li>
                     {t(
@@ -131,10 +151,10 @@ export default function TermsPage() {
                   {t('terms.liability.title', 'Limitation of Liability')}
                 </h2>
                 <p className="text-gray-600 dark:text-gray-300">
-                  {t(
-                    'terms.liability.content',
-                    `To the maximum extent permitted by law, ${APP_NAME} shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of the service.`
-                  )}
+                  {t('terms.liability.content', {
+                    appName: APP_NAME,
+                    defaultValue: `To the maximum extent permitted by law, ${APP_NAME} shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of the service.`,
+                  })}
                 </p>
               </section>
 
@@ -162,7 +182,7 @@ export default function TermsPage() {
                 </p>
                 <div className="mt-4 p-4 bg-gray-100 dark:bg-gray-800 rounded-lg">
                   <p className="text-gray-700 dark:text-gray-300">
-                    Email:{' '}
+                    {t('email', 'Email')}:{' '}
                     <a
                       href={`mailto:${CONSTANTS.LEGAL_EMAIL}`}
                       className="text-blue-600 hover:text-blue-800 dark:text-blue-400"

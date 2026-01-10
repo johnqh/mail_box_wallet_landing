@@ -1,102 +1,102 @@
 {
   "seo": {
-    "title": "Signic ID - Personal ID with Crypto Technologies",
-    "description": "Secure crypto wallet and decentralized identity solution. Own your digital identity, manage assets across chains, and authenticate across Web3 seamlessly."
+    "title": "Signic ID - Chứng thực cá nhân bằng công nghệ tiền mã hóa",
+    "description": "Ví tiền điện tử an toàn và giải pháp danh tính phi tập trung. Sở hữu danh tính kỹ thuật số của bạn, quản lý tài sản trên nhiều chuỗi khối và xác thực trên Web3 một cách trơn tru."
   },
   "hero": {
-    "badge": "Your Identity, Your Control",
-    "title": "Personal ID",
-    "subtitle": "with Crypto Technologies",
-    "description": "A secure wallet and decentralized identity solution. Own your digital identity, manage your assets, and authenticate across Web3 seamlessly.",
-    "cta": "Get Started",
-    "learnMore": "Learn More",
+    "badge": "Nhân dạng của bạn, kiểm soát của bạn",
+    "title": "Chứng minh nhân dân",
+    "subtitle": "với Công nghệ Tiền mã hóa",
+    "description": "Một giải pháp ví an toàn và danh tính phi tập trung. Sở hữu danh tính kỹ thuật số của bạn, quản lý tài sản và xác thực trên Web3 một cách trơn tru.",
+    "cta": "Bắt đầu",
+    "learnMore": "Tìm hiểu thêm",
     "trust": {
-      "secure": "Secure & Private",
-      "multiChain": "Multi-Chain",
-      "selfSovereign": "Self-Sovereign"
+      "secure": "An toàn và riêng tư",
+      "multiChain": "Đa chuỗi",
+      "selfSovereign": "Tự chủ cá nhân"
     }
   },
   "features": {
-    "title": "Everything You Need",
-    "description": "A complete solution for managing your digital identity and crypto assets in one place.",
+    "title": "Tất cả những gì bạn cần",
+    "description": "Một giải pháp toàn diện để quản lý danh tính kỹ thuật số và tài sản tiền mã hóa của bạn tại một nơi.",
     "wallet": {
-      "title": "Secure Crypto Wallet",
-      "description": "Store and manage your digital assets securely across multiple blockchain networks with industry-leading security."
+      "title": "Ví tiền điện tử an toàn",
+      "description": "Lưu trữ và quản lý tài sản kỹ thuật số của bạn một cách an toàn trên nhiều mạng lưới blockchain khác nhau với bảo mật hàng đầu ngành."
     },
     "identity": {
-      "title": "Decentralized Identity",
-      "description": "Own your identity on-chain. Cryptographically verified and controlled entirely by you, not by corporations."
+      "title": "Nhận dạng phi tập trung",
+      "description": "Sở hữu danh tính của bạn trên chuỗi. Được xác minh bằng mật mã và kiểm soát hoàn toàn bởi bạn, chứ không phải bởi các tập đoàn."
     },
     "multiChain": {
-      "title": "Multi-Chain Support",
-      "description": "Works seamlessly across Ethereum, Solana, and other major blockchains. One wallet for all your chains."
+      "title": "Hỗ trợ đa chuỗi",
+      "description": "Hoạt động trơn tru trên Ethereum, Solana và các blockchain lớn khác. Một ví cho tất cả các chuỗi của bạn."
     },
     "names": {
-      "title": "Human-Readable Names",
-      "description": "Use ENS, SNS, and other naming services. Share your identity easily with memorable names instead of long addresses."
+      "title": "Tên dễ đọc",
+      "description": "Sử dụng ENS, SNS, và các dịch vụ đặt tên khác. Chia sẻ danh tính của bạn một cách dễ dàng bằng các tên dễ nhớ thay vì các địa chỉ dài dòng."
     },
     "privacy": {
-      "title": "Privacy Controls",
-      "description": "Choose what to share and what to keep private. Selective disclosure puts you in complete control of your data."
+      "title": "Bộ điều khiển quyền riêng tư",
+      "description": "Chọn những gì muốn chia sẻ và những gì muốn giữ kín. Việc tiết lộ có chọn lọc giúp bạn hoàn toàn kiểm soát dữ liệu của mình."
     },
     "credentials": {
-      "title": "Portable Credentials",
-      "description": "Attach verifiable credentials to your identity. Use them across any Web3 application without creating new accounts."
+      "title": "Chứng chỉ di động",
+      "description": "Gắn tài khoản xác thực được vào danh tính của bạn. Sử dụng chúng trên bất kỳ ứng dụng Web3 nào mà không cần tạo tài khoản mới."
     }
   },
   "howItWorks": {
-    "title": "How It Works",
-    "description": "Get started in four simple steps and take control of your digital identity.",
+    "title": "Cách thức hoạt động",
+    "description": "Bắt đầu trong bốn bước đơn giản và kiểm soát danh tính kỹ thuật số của bạn.",
     "steps": {
       "create": {
-        "title": "Create Your Wallet",
-        "description": "Generate a secure crypto wallet with military-grade encryption. Your keys, your coins, your control."
+        "title": "Tạo ví của bạn",
+        "description": "Tạo ví tiền điện tử an toàn với mã hóa cấp quân đội. Chìa khóa của bạn, tiền của bạn, kiểm soát của bạn."
       },
       "claim": {
-        "title": "Claim Your Identity",
-        "description": "Register your unique on-chain identifier. Choose a memorable name that represents you in Web3."
+        "title": "Nhận danh tính của bạn",
+        "description": "Đăng ký định danh chuỗi khối độc nhất của bạn. Chọn một tên dễ nhớ đại diện cho bạn trong Web3."
       },
       "add": {
-        "title": "Add Credentials",
-        "description": "Attach verifiable credentials to your identity. Prove who you are without revealing everything."
+        "title": "Thêm thông tin xác thực",
+        "description": "Gắn tài khoản xác thực vào danh tính của bạn. Chứng minh danh tính của bạn mà không cần tiết lộ mọi thứ."
       },
       "use": {
-        "title": "Use Everywhere",
-        "description": "Authenticate across Web3 apps seamlessly. One identity for the entire decentralized web."
+        "title": "Sử dụng mọi nơi",
+        "description": "Xác thực liền mạch trên các ứng dụng Web3. Một danh tính cho toàn bộ web phi tập trung."
       }
     }
   },
   "faq": {
-    "title": "Frequently Asked Questions",
-    "description": "Got questions? We have answers.",
+    "title": "Câu hỏi thường gặp",
+    "description": "Có câu hỏi? Chúng tôi có câu trả lời.",
     "items": {
       "different": {
-        "question": "What makes this different from regular wallets?",
-        "answer": "Signic ID combines a secure crypto wallet with a decentralized identity layer. Unlike regular wallets that only store assets, we provide a complete identity solution that lets you prove who you are, manage credentials, and authenticate across Web3 - all while maintaining full control of your data."
+        "question": "Điều gì khiến điều này khác biệt so với ví thông thường?",
+        "answer": "Signic ID kết hợp ví tiền điện tử an toàn với lớp danh tính phi tập trung. Khác với các ví thông thường chỉ lưu trữ tài sản, chúng tôi cung cấp một giải pháp danh tính toàn diện cho phép bạn chứng minh danh tính, quản lý bằng chứng và xác thực trên Web3 — tất cả đều được duy trì quyền kiểm soát hoàn toàn đối với dữ liệu của bạn."
       },
       "security": {
-        "question": "How is my data secured?",
-        "answer": "Your private keys are encrypted locally and never leave your device. We use industry-standard cryptographic algorithms and support hardware wallet integration for additional security. Your identity data is stored on decentralized networks, not on our servers."
+        "question": "Làm thế nào dữ liệu của tôi được bảo vệ?",
+        "answer": "Khóa riêng của bạn được mã hóa cục bộ và chưa bao giờ rời khỏi thiết bị của bạn. Chúng tôi sử dụng các thuật toán mã hóa tiêu chuẩn ngành và hỗ trợ tích hợp ví phần cứng để tăng cường bảo mật. Dữ liệu danh tính của bạn được lưu trữ trên các mạng phi tập trung, không nằm trên máy chủ của chúng tôi."
       },
       "chains": {
-        "question": "Which blockchains are supported?",
-        "answer": "We support Ethereum, Solana, and all major EVM-compatible chains including Polygon, Arbitrum, Optimism, Base, and more. Our multi-chain architecture lets you manage assets across all networks from a single interface."
+        "question": "Các blockchain nào được hỗ trợ?",
+        "answer": "Chúng tôi hỗ trợ Ethereum, Solana và tất cả các chuỗi EVM tương thích chính như Polygon, Arbitrum, Optimism, Base và nhiều hơn nữa. Kiến trúc đa chuỗi của chúng tôi cho phép bạn quản lý tài sản trên tất cả các mạng lưới từ một giao diện duy nhất."
       },
       "recovery": {
-        "question": "Can I recover my identity if I lose access?",
-        "answer": "Yes. We support multiple recovery options including seed phrase backup, social recovery through trusted contacts, and hardware wallet backup. Your identity is linked to your cryptographic keys, so as long as you can recover your keys, you can recover your identity."
+        "question": "Tôi có thể khôi phục danh tính của mình nếu mất quyền truy cập không?",
+        "answer": "Có. Chúng tôi hỗ trợ nhiều phương thức khôi phục khác nhau, bao gồm sao lưu cụm từ phục hồi, khôi phục xã hội thông qua các liên hệ tin cậy và sao lưu ví phần cứng. Danh tính của bạn được liên kết với các khóa mật mã học, vì vậy miễn là bạn có thể khôi phục lại khóa, bạn có thể khôi phục lại danh tính của mình."
       },
       "cost": {
-        "question": "Is there a cost to use the service?",
-        "answer": "The basic wallet and identity features are free to use. Some advanced features like premium naming services or enterprise integrations may have associated costs. Network transaction fees (gas) apply when interacting with blockchains."
+        "question": "Có phí nào khi sử dụng dịch vụ không?",
+        "answer": "Các tính năng cơ bản về ví và danh tính là miễn phí để sử dụng. Một số tính năng nâng cao như dịch vụ đặt tên cao cấp hoặc tích hợp doanh nghiệp có thể phát sinh chi phí. Phí giao dịch mạng (gas) sẽ áp dụng khi tương tác với các blockchain."
       }
     }
   },
   "cta": {
-    "badge": "Start Your Web3 Journey",
-    "title": "Ready to Take Control?",
-    "description": "Join thousands of users who have already secured their digital identity with Signic ID.",
-    "button": "Get Started Now",
-    "subtext": "Free to use. No credit card required."
+    "badge": "Bắt đầu hành trình Web3 của bạn",
+    "title": "Sẵn sàng nắm quyền kiểm soát?",
+    "description": "Tham gia hàng nghìn người dùng đã bảo vệ danh tính kỹ thuật số của họ bằng Signic ID.",
+    "button": "Bắt đầu ngay bây giờ",
+    "subtext": "Miễn phí sử dụng. Không cần thẻ tín dụng."
   }
 }

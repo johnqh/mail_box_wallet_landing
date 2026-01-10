@@ -1,8 +1,108 @@
 {
   "appName": "Signic ID",
+  "loading": "Cargando...",
+  "theme": {
+    "switchToLight": "Cambiar a modo claro",
+    "switchToDark": "Cambiar a modo oscuro"
+  },
   "footer": {
-    "rights": "All rights reserved.",
-    "privacy": "Privacy",
-    "terms": "Terms"
+    "rights": "Todos los derechos reservados.",
+    "privacy": "Privacidad",
+    "terms": "Términos"
+  },
+  "email": "Email",
+  "privacy": {
+    "seoTitle": "Política de privacidad - {{appName}}",
+    "seoDescription": "Política de privacidad para {{appName}. Aprenda cómo protegemos sus datos y respetamos su privacidad.",
+    "title": "Política de privacidad",
+    "lastUpdated": "Última actualización",
+    "introduction": {
+      "title": "Introducción",
+      "content": "{{appName}} (\"nosotros\", \"nuestro\" o \"nos\") respeta su privacidad y se compromete a proteger sus datos personales. Esta política de privacidad explica cómo recopilamos, utilizamos y protegemos su información cuando utiliza nuestra aplicación de billetera."
+    },
+    "dataCollection": {
+      "title": "Información que recopilamos",
+      "intro": "Recopilamos la mínima información necesaria para prestar nuestros servicios:",
+      "item1": "Direcciones de cartera que conectas",
+      "item2": "Los datos de la transacción son visibles en blockchains públicas",
+      "item3": "Análisis de uso (anónimo)",
+      "item4": "Información del dispositivo para seguridad"
+    },
+    "dataUse": {
+      "title": "Cómo utilizamos su información",
+      "item1": "Para proporcionar y mantener nuestro servicio",
+      "item2": "Para mejorar la experiencia del usuario",
+      "item3": "Detectar y prevenir el fraude",
+      "item4": "Cumplir con las obligaciones legales"
+    },
+    "security": {
+      "title": "Seguridad de datos",
+      "content": "Implementamos medidas de seguridad de la industria para proteger sus datos. Sus claves privadas nunca abandonan su dispositivo y nunca se transmiten a nuestros servidores. Utilizamos cifrado para todos los datos en tránsito y en reposo."
+    },
+    "rights": {
+      "title": "Tus derechos",
+      "intro": "Tienes derecho a:",
+      "item1": "Acceda a sus datos personales",
+      "item2": "Solicite la eliminación de sus datos",
+      "item3": "Darse de baja de los análisis",
+      "item4": "Exporta tus datos"
+    },
+    "contact": {
+      "title": "Contáctenos",
+      "content": "Si tiene preguntas sobre esta política de privacidad, póngase en contacto con nosotros en:"
+    }
+  },
+  "terms": {
+    "seoTitle": "Términos del servicio - {{appName}}",
+    "seoDescription": "Términos de servicio para {{appName}. Lea nuestros términos y condiciones para utilizar nuestro servicio de cartera de criptomonedas.",
+    "title": "Términos de servicio",
+    "lastUpdated": "Última actualización",
+    "acceptance": {
+      "title": "Aceptación de Términos",
+      "content": "Al acceder o utilizar {{appName}}, acepta quedar vinculado a estos Términos de Servicio. Si no acepta estos términos, por favor no utilice nuestro servicio."
+    },
+    "description": {
+      "title": "Descripción del servicio",
+      "content": "{{appName}} es una billetera de criptomonedas no custodial que te permite gestionar tus activos digitales e identidad descentralizada. No conservamos tus claves privadas ni tenemos acceso a tus fondos."
+    },
+    "eligibility": {
+      "title": "Elegibilidad",
+      "intro": "Para utilizar nuestro servicio, debe:",
+      "item1": "Tener al menos 18 años",
+      "item2": "Tener la capacidad legal para celebrar este acuerdo",
+      "item3": "No estar prohibido el uso de servicios de criptomoneda en su jurisdicción"
+    },
+    "responsibilities": {
+      "title": "Responsabilidades del usuario",
+      "intro": "Usted es responsable de:",
+      "item1": "Protección de sus claves privadas y frases de recuperación",
+      "item2": "Todas las actividades que ocurren bajo tu billetera",
+      "item3": "Cumplir con las leyes y regulaciones aplicables",
+      "item4": "Entender los riesgos asociados con las criptomonedas"
+    },
+    "risks": {
+      "title": "Descargo de responsabilidad de riesgo",
+      "content": "La criptomoneda y la tecnología blockchain implican riesgos significativos, incluyendo, pero sin limitarse a: volatilidad de precios, incertidumbre regulatoria, vulnerabilidades técnicas y posible pérdida de fondos. Usted reconoce que entiende estos riesgos y acepta plena responsabilidad por cualquier pérdida."
+    },
+    "prohibited": {
+      "title": "Actividades prohibidas",
+      "intro": "Usted acepta no:",
+      "item1": "Utilice el servicio para actividades ilegales",
+      "item2": "Intentar piratear o interrumpir el servicio",
+      "item3": "Violar los derechos de propiedad intelectual",
+      "item4": "Participar en manipulación de mercado"
+    },
+    "liability": {
+      "title": "Limitación de responsabilidad",
+      "content": "En la medida máxima permitida por la ley, {{appName}} no será responsable por ningún daño indirecto, incidental, especial, consecuente o punitivo derivado de su uso del servicio."
+    },
+    "changes": {
+      "title": "Cambios en los Términos",
+      "content": "Nos reservamos el derecho de modificar estos términos en cualquier momento. El uso continuado del servicio después de los cambios constituye la aceptación de los nuevos términos."
+    },
+    "contact": {
+      "title": "Contáctenos",
+      "content": "Si tiene preguntas sobre estos términos, póngase en contacto con nosotros en:"
+    }
   }
 }

@@ -1,8 +1,108 @@
 {
   "appName": "Signic ID",
+  "loading": "Loading...",
+  "theme": {
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
+  },
   "footer": {
     "rights": "All rights reserved.",
     "privacy": "Privacy",
     "terms": "Terms"
+  },
+  "email": "Email",
+  "privacy": {
+    "seoTitle": "Privacy Policy - {{appName}}",
+    "seoDescription": "Privacy policy for {{appName}}. Learn how we protect your data and respect your privacy.",
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated",
+    "introduction": {
+      "title": "Introduction",
+      "content": "{{appName}} (\"we\", \"our\", or \"us\") respects your privacy and is committed to protecting your personal data. This privacy policy explains how we collect, use, and safeguard your information when you use our wallet application."
+    },
+    "dataCollection": {
+      "title": "Information We Collect",
+      "intro": "We collect minimal information necessary to provide our services:",
+      "item1": "Wallet addresses you connect",
+      "item2": "Transaction data visible on public blockchains",
+      "item3": "Usage analytics (anonymized)",
+      "item4": "Device information for security"
+    },
+    "dataUse": {
+      "title": "How We Use Your Information",
+      "item1": "To provide and maintain our service",
+      "item2": "To improve user experience",
+      "item3": "To detect and prevent fraud",
+      "item4": "To comply with legal obligations"
+    },
+    "security": {
+      "title": "Data Security",
+      "content": "We implement industry-standard security measures to protect your data. Your private keys never leave your device and are never transmitted to our servers. We use encryption for all data in transit and at rest."
+    },
+    "rights": {
+      "title": "Your Rights",
+      "intro": "You have the right to:",
+      "item1": "Access your personal data",
+      "item2": "Request deletion of your data",
+      "item3": "Opt out of analytics",
+      "item4": "Export your data"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "content": "If you have questions about this privacy policy, please contact us at:"
+    }
+  },
+  "terms": {
+    "seoTitle": "Terms of Service - {{appName}}",
+    "seoDescription": "Terms of service for {{appName}}. Read our terms and conditions for using our crypto wallet service.",
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated",
+    "acceptance": {
+      "title": "Acceptance of Terms",
+      "content": "By accessing or using {{appName}}, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our service."
+    },
+    "description": {
+      "title": "Service Description",
+      "content": "{{appName}} is a non-custodial cryptocurrency wallet that allows you to manage your digital assets and decentralized identity. We do not hold your private keys or have access to your funds."
+    },
+    "eligibility": {
+      "title": "Eligibility",
+      "intro": "To use our service, you must:",
+      "item1": "Be at least 18 years old",
+      "item2": "Have the legal capacity to enter into this agreement",
+      "item3": "Not be prohibited from using cryptocurrency services in your jurisdiction"
+    },
+    "responsibilities": {
+      "title": "User Responsibilities",
+      "intro": "You are responsible for:",
+      "item1": "Safeguarding your private keys and recovery phrases",
+      "item2": "All activities that occur under your wallet",
+      "item3": "Complying with applicable laws and regulations",
+      "item4": "Understanding the risks associated with cryptocurrency"
+    },
+    "risks": {
+      "title": "Risk Disclosure",
+      "content": "Cryptocurrency and blockchain technology involve significant risks including but not limited to: price volatility, regulatory uncertainty, technical vulnerabilities, and potential loss of funds. You acknowledge that you understand these risks and accept full responsibility for any losses."
+    },
+    "prohibited": {
+      "title": "Prohibited Activities",
+      "intro": "You agree not to:",
+      "item1": "Use the service for illegal activities",
+      "item2": "Attempt to hack or disrupt the service",
+      "item3": "Violate intellectual property rights",
+      "item4": "Engage in market manipulation"
+    },
+    "liability": {
+      "title": "Limitation of Liability",
+      "content": "To the maximum extent permitted by law, {{appName}} shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of the service."
+    },
+    "changes": {
+      "title": "Changes to Terms",
+      "content": "We reserve the right to modify these terms at any time. Continued use of the service after changes constitutes acceptance of the new terms."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "content": "If you have questions about these terms, please contact us at:"
+    }
   }
 }

@@ -1,102 +1,102 @@
 {
   "seo": {
-    "title": "Signic ID - Personal ID with Crypto Technologies",
-    "description": "Secure crypto wallet and decentralized identity solution. Own your digital identity, manage assets across chains, and authenticate across Web3 seamlessly."
+    "title": "Signic ID - 具備加密技術的個人身份證",
+    "description": "安全的加密錢包與去中心化身份解決方案。掌控您的數位身份，跨鏈管理資產，並無縫驗證於Web3。"
   },
   "hero": {
-    "badge": "Your Identity, Your Control",
-    "title": "Personal ID",
-    "subtitle": "with Crypto Technologies",
-    "description": "A secure wallet and decentralized identity solution. Own your digital identity, manage your assets, and authenticate across Web3 seamlessly.",
-    "cta": "Get Started",
-    "learnMore": "Learn More",
+    "badge": "您的身份，您做主",
+    "title": "身份證",
+    "subtitle": "與加密技術相關",
+    "description": "一個安全的錢包與去中心化的身份解決方案。掌控您的數位身份，管理您的資產，並無縫跨入Web3進行驗證。",
+    "cta": "開始使用",
+    "learnMore": "了解更多",
     "trust": {
-      "secure": "Secure & Private",
-      "multiChain": "Multi-Chain",
-      "selfSovereign": "Self-Sovereign"
+      "secure": "安全且私密",
+      "multiChain": "多鏈",
+      "selfSovereign": "自我主權"
     }
   },
   "features": {
-    "title": "Everything You Need",
-    "description": "A complete solution for managing your digital identity and crypto assets in one place.",
+    "title": "您所需的一切",
+    "description": "一個完整的解決方案，讓您在一個地方管理數位身分和加密資產。",
     "wallet": {
-      "title": "Secure Crypto Wallet",
-      "description": "Store and manage your digital assets securely across multiple blockchain networks with industry-leading security."
+      "title": "安全的加密錢包",
+      "description": "透過業界領先的安全性，跨多個區塊鏈網絡安全地儲存和管理您的數位資產。"
     },
     "identity": {
-      "title": "Decentralized Identity",
-      "description": "Own your identity on-chain. Cryptographically verified and controlled entirely by you, not by corporations."
+      "title": "去中心化身份",
+      "description": "在鏈上擁有你的身份。經過密碼學驗證，並完全由你掌控，而非由企業掌控。"
     },
     "multiChain": {
-      "title": "Multi-Chain Support",
-      "description": "Works seamlessly across Ethereum, Solana, and other major blockchains. One wallet for all your chains."
+      "title": "支援多條鏈",
+      "description": "在以太坊、Solana及其他主要區塊鏈上無縫運作。一個錢包，掌控所有鏈。"
     },
     "names": {
-      "title": "Human-Readable Names",
-      "description": "Use ENS, SNS, and other naming services. Share your identity easily with memorable names instead of long addresses."
+      "title": "可讀性高的名稱",
+      "description": "使用 ENS、SNS 及其他命名服務。透過易記的名稱，而非冗長的位址，輕鬆分享您的身份。"
     },
     "privacy": {
-      "title": "Privacy Controls",
-      "description": "Choose what to share and what to keep private. Selective disclosure puts you in complete control of your data."
+      "title": "隱私設定",
+      "description": "選擇分享什麼，並保留什麼為私人資訊。選擇性揭露讓您完全掌控您的資料。"
     },
     "credentials": {
-      "title": "Portable Credentials",
-      "description": "Attach verifiable credentials to your identity. Use them across any Web3 application without creating new accounts."
+      "title": "便攜式憑證",
+      "description": "將可驗證的憑證附加到您的身份上。在任何 Web3 應用程式中使用它們，無需建立新的帳戶。"
     }
   },
   "howItWorks": {
-    "title": "How It Works",
-    "description": "Get started in four simple steps and take control of your digital identity.",
+    "title": "如何運作",
+    "description": "透過四個簡單步驟開始，掌控您的數位身分。",
     "steps": {
       "create": {
-        "title": "Create Your Wallet",
-        "description": "Generate a secure crypto wallet with military-grade encryption. Your keys, your coins, your control."
+        "title": "建立您的錢包",
+        "description": "建立具軍用級加密的加密錢包。您的金鑰，您的數位貨幣，您的掌控。"
       },
       "claim": {
-        "title": "Claim Your Identity",
-        "description": "Register your unique on-chain identifier. Choose a memorable name that represents you in Web3."
+        "title": "領取你的身份",
+        "description": "註冊您的獨一無二的鏈上身份標識。選擇一個令人難忘的名稱，用於在 Web3 中代表您。"
       },
       "add": {
-        "title": "Add Credentials",
-        "description": "Attach verifiable credentials to your identity. Prove who you are without revealing everything."
+        "title": "新增憑證",
+        "description": "將可驗證的憑證附加到您的身份上。證明您的身份，而無需揭露全部資訊。"
       },
       "use": {
-        "title": "Use Everywhere",
-        "description": "Authenticate across Web3 apps seamlessly. One identity for the entire decentralized web."
+        "title": "everywhere",
+        "description": "在 Web3 應用中無縫驗證。一個身份，貫穿整個去中心化網絡。"
       }
     }
   },
   "faq": {
-    "title": "Frequently Asked Questions",
-    "description": "Got questions? We have answers.",
+    "title": "常見問題",
+    "description": "有問題嗎？我們有解答。",
     "items": {
       "different": {
-        "question": "What makes this different from regular wallets?",
-        "answer": "Signic ID combines a secure crypto wallet with a decentralized identity layer. Unlike regular wallets that only store assets, we provide a complete identity solution that lets you prove who you are, manage credentials, and authenticate across Web3 - all while maintaining full control of your data."
+        "question": "什麼讓它與普通錢包不同？",
+        "answer": "Signic ID將安全的加密錢包與去中心化的身份層結合。與僅儲存資產的普通錢包不同，我們提供完整的身份解決方案，讓您能夠證明自己的身份、管理憑證，並在Web3中進行驗證，同時完全掌控您的資料。"
       },
       "security": {
-        "question": "How is my data secured?",
-        "answer": "Your private keys are encrypted locally and never leave your device. We use industry-standard cryptographic algorithms and support hardware wallet integration for additional security. Your identity data is stored on decentralized networks, not on our servers."
+        "question": "我的資料是如何被保護的？",
+        "answer": "您的私鑰會在本地加密，且永遠不會離開您的設備。我們使用業界標準的加密演算法，並支援硬體錢包整合以提升安全性。您的身份資料儲存在去中心化網路中，而非我們的伺服器上。"
       },
       "chains": {
-        "question": "Which blockchains are supported?",
-        "answer": "We support Ethereum, Solana, and all major EVM-compatible chains including Polygon, Arbitrum, Optimism, Base, and more. Our multi-chain architecture lets you manage assets across all networks from a single interface."
+        "question": "支援哪些區塊鏈？",
+        "answer": "我們支援以太坊、Solana，以及所有主要的EVM相容鏈，包括Polygon、Arbitrum、Optimism、Base等。我們的多鏈架構讓您能透過單一介面管理所有網路的資產。"
       },
       "recovery": {
-        "question": "Can I recover my identity if I lose access?",
-        "answer": "Yes. We support multiple recovery options including seed phrase backup, social recovery through trusted contacts, and hardware wallet backup. Your identity is linked to your cryptographic keys, so as long as you can recover your keys, you can recover your identity."
+        "question": "如果我失去存取權，我可以恢復我的身份嗎？",
+        "answer": "是的。我們支援多種復原選項，包括助記詞備份、透過可信聯絡人進行社交復原，以及硬體錢包備份。你的身份與你的加密金鑰相關聯，只要能恢復你的金鑰，就能恢復你的身份。"
       },
       "cost": {
-        "question": "Is there a cost to use the service?",
-        "answer": "The basic wallet and identity features are free to use. Some advanced features like premium naming services or enterprise integrations may have associated costs. Network transaction fees (gas) apply when interacting with blockchains."
+        "question": "使用服務有費用嗎？",
+        "answer": "基本錢包和身份功能免費使用。某些進階功能，例如優質命名服務或企業整合，可能會產生相關費用。與區塊鏈互動時，需支付網路交易手續費（Gas）。"
       }
     }
   },
   "cta": {
-    "badge": "Start Your Web3 Journey",
-    "title": "Ready to Take Control?",
-    "description": "Join thousands of users who have already secured their digital identity with Signic ID.",
-    "button": "Get Started Now",
-    "subtext": "Free to use. No credit card required."
+    "badge": "啟動您的 Web3 旅程",
+    "title": "準備好掌控一切了嗎？",
+    "description": "加入數以千計已透過Signic ID保護數位身分的使用者行列。",
+    "button": "立即開始",
+    "subtext": "免費使用。不需要信用卡。"
   }
 }

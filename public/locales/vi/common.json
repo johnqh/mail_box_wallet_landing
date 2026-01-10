@@ -1,8 +1,108 @@
 {
   "appName": "Signic ID",
+  "loading": "Đang tải...",
+  "theme": {
+    "switchToLight": "Chuyển sang chế độ sáng",
+    "switchToDark": "Chuyển sang chế độ tối"
+  },
   "footer": {
-    "rights": "All rights reserved.",
-    "privacy": "Privacy",
-    "terms": "Terms"
+    "rights": "Tất cả quyền được bảo lưu.",
+    "privacy": "Bảo mật",
+    "terms": "Điều khoản"
+  },
+  "email": "Thư điện tử",
+  "privacy": {
+    "seoTitle": "Chính sách bảo mật - {{appName}}",
+    "seoDescription": "Chính sách bảo mật cho {{appName}. Tìm hiểu cách chúng tôi bảo vệ dữ liệu của bạn và tôn trọng quyền riêng tư của bạn.",
+    "title": "Chính sách bảo mật",
+    "lastUpdated": "Cập nhật lần cuối",
+    "introduction": {
+      "title": "Giới thiệu",
+      "content": "{{appName}} (\"chúng tôi\", \"chúng tôi sở hữu\" hoặc \"chúng tôi\") tôn trọng quyền riêng tư của bạn và cam kết bảo vệ dữ liệu cá nhân của bạn. Chính sách bảo mật này giải thích cách chúng tôi thu thập, sử dụng và bảo vệ thông tin của bạn khi bạn sử dụng ứng dụng ví của chúng tôi."
+    },
+    "dataCollection": {
+      "title": "Thông tin Chúng Tôi Thu Thập",
+      "intro": "Chúng tôi thu thập tối thiểu thông tin cần thiết để cung cấp dịch vụ của chúng tôi:",
+      "item1": "Địa chỉ ví mà bạn kết nối",
+      "item2": "Dữ liệu giao dịch hiển thị trên các blockchain công khai",
+      "item3": "Phân tích sử dụng (đã ẩn danh)",
+      "item4": "Thông tin thiết bị để bảo mật"
+    },
+    "dataUse": {
+      "title": "Làm thế nào chúng tôi sử dụng thông tin của bạn",
+      "item1": "Để cung cấp và duy trì dịch vụ của chúng tôi",
+      "item2": "Để cải thiện trải nghiệm người dùng",
+      "item3": "Phát hiện và ngăn chặn gian lận",
+      "item4": "Để tuân thủ các nghĩa vụ pháp lý"
+    },
+    "security": {
+      "title": "An toàn dữ liệu",
+      "content": "Chúng tôi thực hiện các biện pháp bảo mật tiêu chuẩn ngành để bảo vệ dữ liệu của bạn. Các khóa riêng tư của bạn sẽ không bao giờ rời khỏi thiết bị của bạn và cũng sẽ không bao giờ được truyền đến máy chủ của chúng tôi. Chúng tôi sử dụng mã hóa cho mọi dữ liệu đang truyền và đang lưu trữ."
+    },
+    "rights": {
+      "title": "Quyền của bạn",
+      "intro": "Bạn có quyền:",
+      "item1": "Truy cập dữ liệu cá nhân của bạn",
+      "item2": "Yêu cầu xóa dữ liệu của bạn",
+      "item3": "Từ chối tham gia phân tích dữ liệu",
+      "item4": "Xuất dữ liệu của bạn"
+    },
+    "contact": {
+      "title": "Liên hệ chúng tôi",
+      "content": "Nếu bạn có thắc mắc về chính sách bảo mật này, vui lòng liên hệ chúng tôi tại:"
+    }
+  },
+  "terms": {
+    "seoTitle": "Điều khoản Dịch vụ - {{appName}}",
+    "seoDescription": "Điều khoản dịch vụ cho {{appName}}. Vui lòng đọc điều khoản và điều kiện của chúng tôi để sử dụng dịch vụ ví tiền mã hóa của chúng tôi.",
+    "title": "Điều khoản dịch vụ",
+    "lastUpdated": "Cập nhật lần cuối",
+    "acceptance": {
+      "title": "Việc chấp nhận Điều khoản",
+      "content": "Bằng việc truy cập hoặc sử dụng {{appName}}, bạn đồng ý bị ràng buộc bởi các Điều khoản Dịch vụ này. Nếu bạn không đồng ý với các điều khoản này, vui lòng không sử dụng dịch vụ của chúng tôi."
+    },
+    "description": {
+      "title": "Mô tả dịch vụ",
+      "content": "{{appName}} là ví tiền điện tử không lưu giữ, cho phép bạn quản lý tài sản kỹ thuật số và danh tính phi tập trung. Chúng tôi không lưu giữ khóa riêng của bạn hay có quyền truy cập vào tài sản của bạn."
+    },
+    "eligibility": {
+      "title": "Điều kiện đủ",
+      "intro": "Để sử dụng dịch vụ của chúng tôi, bạn phải:",
+      "item1": "Ít nhất 18 tuổi",
+      "item2": "Có năng lực pháp lý để tham gia thỏa thuận này",
+      "item3": "Không bị cấm sử dụng dịch vụ tiền mã hóa tại khu vực pháp lý của bạn"
+    },
+    "responsibilities": {
+      "title": "Trách nhiệm của người dùng",
+      "intro": "Bạn chịu trách nhiệm về:",
+      "item1": "Bảo vệ các khóa riêng tư và cụm từ khôi phục của bạn",
+      "item2": "Tất cả các hoạt động xảy ra dưới ví của bạn",
+      "item3": "Tuân thủ các luật và quy định có liên quan",
+      "item4": "Hiểu về các rủi ro liên quan đến tiền điện tử"
+    },
+    "risks": {
+      "title": "Cảnh báo rủi ro",
+      "content": "Công nghệ tiền điện tử và blockchain bao gồm những rủi ro đáng kể, bao gồm nhưng không giới hạn ở: biến động giá, bất ổn về quy định, điểm yếu kỹ thuật và khả năng mất tiền. Bạn công nhận rằng bạn hiểu những rủi ro này và chấp nhận toàn bộ trách nhiệm cho mọi tổn thất có thể xảy ra."
+    },
+    "prohibited": {
+      "title": "Hoạt động bị cấm",
+      "intro": "Bạn đồng ý không thực hiện:",
+      "item1": "Sử dụng dịch vụ cho các hoạt động bất pháp",
+      "item2": "Thử hack hoặc làm gián đoạn dịch vụ",
+      "item3": "Vi phạm quyền sở hữu trí tuệ",
+      "item4": "Tham gia thao túng thị trường"
+    },
+    "liability": {
+      "title": "Hạn chế trách nhiệm",
+      "content": "Trong phạm vi cho phép theo luật pháp, {{appName}} sẽ không chịu trách nhiệm về bất kỳ thiệt hại gián tiếp, ngẫu nhiên, đặc biệt, hệ quả hoặc hình phạt nào phát sinh từ việc bạn sử dụng dịch vụ."
+    },
+    "changes": {
+      "title": "Thay đổi về Điều khoản",
+      "content": "Chúng tôi giữ quyền thay đổi các điều khoản này bất cứ lúc nào. Việc tiếp tục sử dụng dịch vụ sau khi có thay đổi được coi là chấp nhận các điều khoản mới."
+    },
+    "contact": {
+      "title": "Liên hệ chúng tôi",
+      "content": "Nếu bạn có thắc mắc về các điều khoản này, vui lòng liên hệ chúng tôi tại:"
+    }
   }
 }

@@ -1,8 +1,108 @@
 {
   "appName": "Signic ID",
+  "loading": "Chargement...",
+  "theme": {
+    "switchToLight": "Passer en mode clair",
+    "switchToDark": "Passer en mode sombre"
+  },
   "footer": {
-    "rights": "All rights reserved.",
-    "privacy": "Privacy",
-    "terms": "Terms"
+    "rights": "Tous droits réservés.",
+    "privacy": "Confidentialité",
+    "terms": "Conditions"
+  },
+  "email": "Email",
+  "privacy": {
+    "seoTitle": "Politique de confidentialité - {{appName}}",
+    "seoDescription": "Politique de confidentialité pour {{appName}. Découvrez comment nous protégeons vos données et respectons votre vie privée.",
+    "title": "Politique de confidentialité",
+    "lastUpdated": "Dernière mise à jour",
+    "introduction": {
+      "title": "Introduction",
+      "content": "{{appName}} (\"nous\", \"notre\" ou \"nous\") respecte votre vie privée et s'engage à protéger vos données personnelles. Cette politique de confidentialité explique la manière dont nous collectons, utilisons et protégeons vos informations lorsque vous utilisez notre application de portefeuille."
+    },
+    "dataCollection": {
+      "title": "Informations que nous collectons",
+      "intro": "Nous recueillons uniquement les informations minimales nécessaires pour fournir nos services :",
+      "item1": "Les adresses de portefeuille que vous connectez",
+      "item2": "Données de transaction visibles sur les blockchains publiques",
+      "item3": "Analyse d'utilisation (anonymisée)",
+      "item4": "Informations sur le périphérique pour la sécurité"
+    },
+    "dataUse": {
+      "title": "Comment nous utilisons vos informations",
+      "item1": "Fournir et maintenir notre service",
+      "item2": "Pour améliorer l'expérience utilisateur",
+      "item3": "Détection et prévention de la fraude",
+      "item4": "Pour se conformer aux obligations légales"
+    },
+    "security": {
+      "title": "Sécurité des données",
+      "content": "Nous mettons en œuvre des mesures de sécurité standards du secteur pour protéger vos données. Vos clés privées ne quittent jamais votre appareil et ne sont jamais transmises à nos serveurs. Nous utilisons le chiffrement pour toutes les données en transit et au repos."
+    },
+    "rights": {
+      "title": "Vos droits",
+      "intro": "Vous avez le droit de :",
+      "item1": "Accédez à vos données personnelles",
+      "item2": "Demande de suppression de vos données",
+      "item3": "Se désabonner de l'analyse",
+      "item4": "Exportez vos données"
+    },
+    "contact": {
+      "title": "Contactez-nous",
+      "content": "Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à :"
+    }
+  },
+  "terms": {
+    "seoTitle": "Conditions d'utilisation - {{appName}}",
+    "seoDescription": "Conditions d'utilisation de {{appName}. Consultez nos conditions d'utilisation pour utiliser notre service de portefeuille de cryptomonnaie.",
+    "title": "Conditions d'utilisation",
+    "lastUpdated": "Dernière mise à jour",
+    "acceptance": {
+      "title": "Acceptation des conditions",
+      "content": "En accédant à ou en utilisant {{appName}}, vous acceptez d'être lié par ces Conditions d'utilisation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser notre service."
+    },
+    "description": {
+      "title": "Description du service",
+      "content": "{{appName}} est un portefeuille de cryptomonnaies non-custodien qui vous permet de gérer vos actifs numériques et votre identité décentralisée. Nous ne détenons pas vos clés privées ni n'avons accès à vos fonds."
+    },
+    "eligibility": {
+      "title": "Éligibilité",
+      "intro": "Pour utiliser notre service, vous devez :",
+      "item1": "Avoir au moins 18 ans",
+      "item2": "Avoir la capacité juridique de conclure le présent accord",
+      "item3": "Ne pas être interdit d'utiliser les services de cryptomonnaie dans votre juridiction"
+    },
+    "responsibilities": {
+      "title": "Responsabilités de l'utilisateur",
+      "intro": "Vous êtes responsable de :",
+      "item1": "Protection de vos clés privées et phrases de récupération",
+      "item2": "Toutes les activités qui ont lieu sous votre portefeuille",
+      "item3": "Se conformer aux lois et réglementations applicables",
+      "item4": "Comprendre les risques liés aux cryptomonnaies"
+    },
+    "risks": {
+      "title": "Avis de non-responsabilité",
+      "content": "La cryptomonnaie et la technologie blockchain comportent des risques importants, notamment : la volatilité des prix, l'incertitude réglementaire, les vulnérabilités techniques et la possibilité de perte de fonds. Vous reconnaissez avoir compris ces risques et acceptez la pleine responsabilité de tout dommage éventuel."
+    },
+    "prohibited": {
+      "title": "Activités interdites",
+      "intro": "Vous acceptez de ne pas :",
+      "item1": "Utilisez le service à des fins illégales",
+      "item2": "Tenter de pirater ou de perturber le service",
+      "item3": "Violer les droits de propriété intellectuelle",
+      "item4": "S'engager dans une manipulation de marché"
+    },
+    "liability": {
+      "title": "Limitation de responsabilité",
+      "content": "Dans la mesure maximale autorisée par la loi, {{appName}} ne pourra pas être tenue responsable des dommages indirects, accessoires, spéciaux, consécutifs ou punissables découlant de votre utilisation du service."
+    },
+    "changes": {
+      "title": "Modifications des conditions",
+      "content": "Nous nous réservons le droit de modifier ces conditions à tout moment. L'utilisation continue du service après les modifications constitue l'acceptation des nouvelles conditions."
+    },
+    "contact": {
+      "title": "Contactez-nous",
+      "content": "Si vous avez des questions concernant ces conditions, veuillez nous contacter à :"
+    }
   }
 }

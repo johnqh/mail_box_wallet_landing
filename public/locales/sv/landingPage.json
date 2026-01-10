@@ -1,102 +1,102 @@
 {
   "seo": {
-    "title": "Signic ID - Personal ID with Crypto Technologies",
-    "description": "Secure crypto wallet and decentralized identity solution. Own your digital identity, manage assets across chains, and authenticate across Web3 seamlessly."
+    "title": "Signic ID - Personlig ID med krypto-teknik",
+    "description": "Säker kryptoplånbok och decentraliserad identitetslösning. Äg din digitala identitet, hantera tillgångar över flera kedjor och autentisera dig sömlöst över Web3."
   },
   "hero": {
-    "badge": "Your Identity, Your Control",
-    "title": "Personal ID",
-    "subtitle": "with Crypto Technologies",
-    "description": "A secure wallet and decentralized identity solution. Own your digital identity, manage your assets, and authenticate across Web3 seamlessly.",
-    "cta": "Get Started",
-    "learnMore": "Learn More",
+    "badge": "Ditt identitet, din kontroll",
+    "title": "Personnummer",
+    "subtitle": "med krypto-teknologier",
+    "description": "Ett säkert plånbok och decentraliserat identitetslösning. Äg din digitala identitet, hantera dina tillgångar och autentisera dig över Web3 utan problem.",
+    "cta": "Börja",
+    "learnMore": "Läs mer",
     "trust": {
-      "secure": "Secure & Private",
+      "secure": "Säker och privat",
       "multiChain": "Multi-Chain",
-      "selfSovereign": "Self-Sovereign"
+      "selfSovereign": "Selvstyrande"
     }
   },
   "features": {
-    "title": "Everything You Need",
-    "description": "A complete solution for managing your digital identity and crypto assets in one place.",
+    "title": "Allt du behöver",
+    "description": "Ett komplett solution för att hantera din digitala identitet och kryptoaktiver i ett enda ställe.",
     "wallet": {
-      "title": "Secure Crypto Wallet",
-      "description": "Store and manage your digital assets securely across multiple blockchain networks with industry-leading security."
+      "title": "Säker kryptowallet",
+      "description": "Spara och hantera dina digitala tillgångar säkert över flera blockkedjennätverk med säkerhet som är ledande inom branschen."
     },
     "identity": {
-      "title": "Decentralized Identity",
-      "description": "Own your identity on-chain. Cryptographically verified and controlled entirely by you, not by corporations."
+      "title": "Decentraliserat identitet",
+      "description": "Ejera din identitet på blockkedjan. Kryptografiskt verifierad och helt kontrollerad av dig själv, inte av företag."
     },
     "multiChain": {
-      "title": "Multi-Chain Support",
-      "description": "Works seamlessly across Ethereum, Solana, and other major blockchains. One wallet for all your chains."
+      "title": "Stöd för flera kedjor",
+      "description": "Fungerar smidigt över Ethereum, Solana och andra stora blockchains. En plånbok för alla dina kedjor."
     },
     "names": {
-      "title": "Human-Readable Names",
-      "description": "Use ENS, SNS, and other naming services. Share your identity easily with memorable names instead of long addresses."
+      "title": "Läsbara namn",
+      "description": "Använd ENS, SNS och andra namntjänster. Dela din identitet enkelt med minnesvärda namn istället för långa adresser."
     },
     "privacy": {
-      "title": "Privacy Controls",
-      "description": "Choose what to share and what to keep private. Selective disclosure puts you in complete control of your data."
+      "title": "Integritetsinställningar",
+      "description": "Välj vad du vill dela och vad du vill hålla privat. Väljbar avslöjande ger dig full kontroll över dina uppgifter."
     },
     "credentials": {
-      "title": "Portable Credentials",
-      "description": "Attach verifiable credentials to your identity. Use them across any Web3 application without creating new accounts."
+      "title": "Portabla behörigheter",
+      "description": "Koppla verifierbara behörigheter till ditt identitet. Använd dem i vilken Web3-applikation som helst utan att skapa nya konton."
     }
   },
   "howItWorks": {
-    "title": "How It Works",
-    "description": "Get started in four simple steps and take control of your digital identity.",
+    "title": "Så här fungerar det",
+    "description": "Börja på fyra enkla steg och ta kontroll över din digitala identitet.",
     "steps": {
       "create": {
-        "title": "Create Your Wallet",
-        "description": "Generate a secure crypto wallet with military-grade encryption. Your keys, your coins, your control."
+        "title": "Skapa din plånbok",
+        "description": "Skapa en säker kryptoplånbok med militärklassad kryptering. Dina nycklar, dina mynt, ditt ansvar."
       },
       "claim": {
-        "title": "Claim Your Identity",
-        "description": "Register your unique on-chain identifier. Choose a memorable name that represents you in Web3."
+        "title": "Ta ditt identitet",
+        "description": "Registrera ditt unika on-chain-id. Välj ett minnesvärt namn som representerar dig i Web3."
       },
       "add": {
-        "title": "Add Credentials",
-        "description": "Attach verifiable credentials to your identity. Prove who you are without revealing everything."
+        "title": "Lägg till autentiseringsuppgifter",
+        "description": "Koppla verifierbara behörigheter till ditt identitet. Bevisa vem du är utan att avslöja allt."
       },
       "use": {
-        "title": "Use Everywhere",
-        "description": "Authenticate across Web3 apps seamlessly. One identity for the entire decentralized web."
+        "title": "Används överallt",
+        "description": "Autentisera dig över Web3-appar utan problem. En identitet för hela decentraliserade webben."
       }
     }
   },
   "faq": {
-    "title": "Frequently Asked Questions",
-    "description": "Got questions? We have answers.",
+    "title": "Vanliga frågor",
+    "description": "Har du frågor? Vi har svar.",
     "items": {
       "different": {
-        "question": "What makes this different from regular wallets?",
-        "answer": "Signic ID combines a secure crypto wallet with a decentralized identity layer. Unlike regular wallets that only store assets, we provide a complete identity solution that lets you prove who you are, manage credentials, and authenticate across Web3 - all while maintaining full control of your data."
+        "question": "Vad gör att detta skiljer sig från vanliga plånböcker?",
+        "answer": "Signic ID kombinerar en säker kryptoplånbok med ett decenterat identitetslager. Till skillnad från vanliga plånböcker som endast lagrar tillgångar erbjuder vi en komplett identitetslösning som gör att du kan bevisa vem du är, hantera certifikat och autentisera dig över Web3 – allt med full kontroll över dina data."
       },
       "security": {
-        "question": "How is my data secured?",
-        "answer": "Your private keys are encrypted locally and never leave your device. We use industry-standard cryptographic algorithms and support hardware wallet integration for additional security. Your identity data is stored on decentralized networks, not on our servers."
+        "question": "Hur är min data skyddad?",
+        "answer": "Dina privata nycklar krypteras lokalt och lämnar aldrig din enhet. Vi använder branschstandardiserade kryptografiska algoritmer och stödjer integration av hårdvaruportföljer för ytterligare säkerhet. Ditt identitetsdata lagras på decenterade nätverk, inte på våra servrar."
       },
       "chains": {
-        "question": "Which blockchains are supported?",
-        "answer": "We support Ethereum, Solana, and all major EVM-compatible chains including Polygon, Arbitrum, Optimism, Base, and more. Our multi-chain architecture lets you manage assets across all networks from a single interface."
+        "question": "Vilka blockchains stöds?",
+        "answer": "Vi stöder Ethereum, Solana och alla stora EVM-kompatibla kedjor inklusive Polygon, Arbitrum, Optimism, Base och fler. Vårt multikedjeharmoniska arkitektur gör att du kan hantera tillgångar över alla nätverk från en enda gränssnitt."
       },
       "recovery": {
-        "question": "Can I recover my identity if I lose access?",
-        "answer": "Yes. We support multiple recovery options including seed phrase backup, social recovery through trusted contacts, and hardware wallet backup. Your identity is linked to your cryptographic keys, so as long as you can recover your keys, you can recover your identity."
+        "question": "Kan jag återhämta min identitet om jag förlorar tillgång?",
+        "answer": "Ja. Vi stöder flera återställningsalternativ, inklusive säkerhetskopiering av seedfras, social återställning genom betrodda kontakter och säkerhetskopiering av hårdvaruwallet. Ditt identitet är kopplat till dina kryptografiska nycklar, så så länge du kan återställa dina nycklar kan du återställa din identitet."
       },
       "cost": {
-        "question": "Is there a cost to use the service?",
-        "answer": "The basic wallet and identity features are free to use. Some advanced features like premium naming services or enterprise integrations may have associated costs. Network transaction fees (gas) apply when interacting with blockchains."
+        "question": "Finns det en kostnad för att använda tjänsten?",
+        "answer": "De grundläggande funktionerna för plånbok och identitet är kostnadsfria att använda. Vissa avancerade funktioner, som premium namntjänster eller företagsintegrationer, kan ha kopplade kostnader. Nätverkstransaktionsavgifter (gas) påläggs vid interaktion med blockkedjor."
       }
     }
   },
   "cta": {
-    "badge": "Start Your Web3 Journey",
-    "title": "Ready to Take Control?",
-    "description": "Join thousands of users who have already secured their digital identity with Signic ID.",
-    "button": "Get Started Now",
-    "subtext": "Free to use. No credit card required."
+    "badge": "Starta din Web3-resor",
+    "title": "Klar att ta kontroll?",
+    "description": "Gå med i tusentals användare som redan har skyddat sin digitala identitet med Signic ID.",
+    "button": "Börja nu",
+    "subtext": "Gratis att använda. Ingen kreditkort krävs."
   }
 }

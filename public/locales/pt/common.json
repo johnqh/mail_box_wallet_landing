@@ -1,8 +1,108 @@
 {
   "appName": "Signic ID",
+  "loading": "Carregando...",
+  "theme": {
+    "switchToLight": "Mudar para o modo claro",
+    "switchToDark": "Mudar para o modo escuro"
+  },
   "footer": {
-    "rights": "All rights reserved.",
-    "privacy": "Privacy",
-    "terms": "Terms"
+    "rights": "Todos os direitos reservados.",
+    "privacy": "Privacidade",
+    "terms": "Termos"
+  },
+  "email": "O e-mail",
+  "privacy": {
+    "seoTitle": "Política de Privacidade - {{appName}}",
+    "seoDescription": "Política de privacidade para {{appName}. Saiba como protegemos seus dados e respeitamos sua privacidade.",
+    "title": "Política de Privacidade",
+    "lastUpdated": "Última atualização",
+    "introduction": {
+      "title": "Introdução",
+      "content": "{{appName}} (\"nós\", \"nosso\" ou \"nós\") respeita a sua privacidade e está comprometida em proteger os seus dados pessoais. Esta política de privacidade explica como coletamos, usamos e protegemos as suas informações quando utiliza a nossa aplicação de carteira."
+    },
+    "dataCollection": {
+      "title": "Informações que Coletamos",
+      "intro": "Coletamos apenas as informações mínimas necessárias para prestar nossos serviços:",
+      "item1": "Endereços de carteira que você conecta",
+      "item2": "Dados da transação visíveis em blockchains públicas",
+      "item3": "Analytics de uso (anônimas)",
+      "item4": "Informações do dispositivo para segurança"
+    },
+    "dataUse": {
+      "title": "Como usamos suas informações",
+      "item1": "Para fornecer e manter nosso serviço",
+      "item2": "Para melhorar a experiência do usuário",
+      "item3": "Para detectar e prevenir fraudes",
+      "item4": "Para cumprir obrigações legais"
+    },
+    "security": {
+      "title": "Segurança de Dados",
+      "content": "Implementamos medidas de segurança padronizadas pela indústria para proteger seus dados. Suas chaves privadas nunca deixam seu dispositivo e nunca são transmitidas aos nossos servidores. Utilizamos criptografia para todos os dados em trânsito e em repouso."
+    },
+    "rights": {
+      "title": "Os seus direitos",
+      "intro": "Você tem o direito de:",
+      "item1": "Acesse seus dados pessoais",
+      "item2": "Solicite a exclusão dos seus dados",
+      "item3": "Sair dos analytics",
+      "item4": "Exporte seus dados"
+    },
+    "contact": {
+      "title": "Entre em Contato conosco",
+      "content": "Se tiver dúvidas sobre esta política de privacidade, entre em contato conosco em:"
+    }
+  },
+  "terms": {
+    "seoTitle": "Termos de Serviço - {{appName}}",
+    "seoDescription": "Termos de serviço para {{appName}. Leia nossos termos e condições para usar nosso serviço de carteira de criptomoedas.",
+    "title": "Termos de Serviço",
+    "lastUpdated": "Última atualização",
+    "acceptance": {
+      "title": "Aceitação dos Termos",
+      "content": "Ao acessar ou usar o {{appName}}, você concorda em se vincular a estes Termos de Serviço. Se você não concordar com estes termos, por favor, não use nosso serviço."
+    },
+    "description": {
+      "title": "Descrição do Serviço",
+      "content": "{{appName}} é uma carteira de criptomoedas não custodiada que permite gerenciar seus ativos digitais e identidade descentralizada. Não detemos suas chaves privadas nem temos acesso aos seus fundos."
+    },
+    "eligibility": {
+      "title": "Elegibilidade",
+      "intro": "Para usar o nosso serviço, você deve:",
+      "item1": "Tenha pelo menos 18 anos de idade",
+      "item2": "Tenham a capacidade legal para celebrar este acordo",
+      "item3": "Não ser proibido de usar serviços de criptomoeda na sua jurisdição"
+    },
+    "responsibilities": {
+      "title": "Responsabilidades do Usuário",
+      "intro": "Você é responsável por:",
+      "item1": "Proteção de suas chaves privadas e frases de recuperação",
+      "item2": "Todas as atividades que ocorrem sob sua carteira",
+      "item3": "Cumprindo as leis e regulamentos aplicáveis",
+      "item4": "Compreender os riscos associados ao cryptocurrency"
+    },
+    "risks": {
+      "title": "Aviso de Risco",
+      "content": "A tecnologia de criptomoedas e blockchain envolve riscos significativos, incluindo, mas não se limitando a: volatilidade de preços, incerteza regulatória, vulnerabilidades técnicas e possíveis perdas de fundos. Você reconhece que entende esses riscos e aceita plena responsabilidade por quaisquer perdas."
+    },
+    "prohibited": {
+      "title": "Atividades Proibidas",
+      "intro": "Você concorda em não:",
+      "item1": "Use o serviço para atividades ilegais",
+      "item2": "Tentar hackear ou interromper o serviço",
+      "item3": "Violar direitos de propriedade intelectual",
+      "item4": "Participe de manipulação de mercado"
+    },
+    "liability": {
+      "title": "Isenção de Responsabilidade",
+      "content": "Na extensão máxima permitida pela lei, {{appName}} não será responsável por quaisquer danos indiretos, incidentais, especiais, consequentes ou punitivos decorrentes do seu uso do serviço."
+    },
+    "changes": {
+      "title": "Alterações nos Termos",
+      "content": "Reservamos o direito de modificar estas condições a qualquer momento. A utilização contínua do serviço após as alterações constitui aceitação dos novos termos."
+    },
+    "contact": {
+      "title": "Entre em Contato conosco",
+      "content": "Se você tiver dúvidas sobre esses termos, entre em contato conosco em:"
+    }
   }
 }

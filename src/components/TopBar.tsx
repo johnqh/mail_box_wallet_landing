@@ -60,9 +60,17 @@ export default function TopBar() {
       type="button"
       onClick={toggleTheme}
       className="p-2 rounded-lg text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
-      aria-label={resolvedTheme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
+      aria-label={
+        resolvedTheme === 'dark'
+          ? t('theme.switchToLight', 'Switch to light mode')
+          : t('theme.switchToDark', 'Switch to dark mode')
+      }
     >
-      {resolvedTheme === 'dark' ? <SunIcon className="h-5 w-5" /> : <MoonIcon className="h-5 w-5" />}
+      {resolvedTheme === 'dark' ? (
+        <SunIcon className="h-5 w-5" />
+      ) : (
+        <MoonIcon className="h-5 w-5" />
+      )}
     </button>
   );
 

@@ -1,5 +1,6 @@
 import { Suspense } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { useLanguage } from './context/LanguageContext';
 import { SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE } from './constants/languages';
 import LandingPage from './pages/LandingPage';
@@ -8,9 +9,12 @@ import TermsPage from './pages/TermsPage';
 
 // Loading fallback
 function LoadingFallback() {
+  const { t } = useTranslation('common');
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-900">
-      <div className="animate-pulse text-gray-600 dark:text-gray-400">Loading...</div>
+      <div className="animate-pulse text-gray-600 dark:text-gray-400">
+        {t('loading', 'Loading...')}
+      </div>
     </div>
   );
 }

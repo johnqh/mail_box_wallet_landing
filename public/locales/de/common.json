@@ -1,8 +1,108 @@
 {
   "appName": "Signic ID",
+  "loading": "Lade...",
+  "theme": {
+    "switchToLight": "Zum Lichtmodus wechseln",
+    "switchToDark": "Wechseln Sie in den Dunkelmodus"
+  },
   "footer": {
-    "rights": "All rights reserved.",
-    "privacy": "Privacy",
-    "terms": "Terms"
+    "rights": "Alle Rechte vorbehalten.",
+    "privacy": "Datenschutz",
+    "terms": "Bedingungen"
+  },
+  "email": "E-Mail",
+  "privacy": {
+    "seoTitle": "Datenschutzbestimmungen - {{appName}}",
+    "seoDescription": "Datenschutzbestimmungen für {{appName}. Erfahren Sie, wie wir Ihre Daten schützen und Ihre Privatsphäre respektieren.",
+    "title": "Datenschutzbestimmungen",
+    "lastUpdated": "Zuletzt aktualisiert",
+    "introduction": {
+      "title": "Einführung",
+      "content": "{{appName}} (\"wir\", \"unsere\" oder \"uns\") respektiert Ihre Privatsphäre und ist verpflichtet, Ihre personenbezogenen Daten zu schützen. Diese Datenschutzrichtlinie erklärt, wie wir Ihre Informationen sammeln, verwenden und schützen, wenn Sie unsere Wallet-Anwendung nutzen."
+    },
+    "dataCollection": {
+      "title": "von uns erhobene Informationen",
+      "intro": "Wir sammeln nur die minimal notwendigen Informationen, um unsere Dienstleistungen zu erbringen:",
+      "item1": "Brieftaschen-Adressen, die Sie verbinden",
+      "item2": "Transaktionsdaten sind auf öffentlichen Blockchains sichtbar",
+      "item3": "Nutzungsanalyse (anonymisiert)",
+      "item4": "Geräteinformationen für die Sicherheit"
+    },
+    "dataUse": {
+      "title": "Wie wir Ihre Informationen verwenden",
+      "item1": "Um unseren Dienst bereitzustellen und aufrechtzuerhalten",
+      "item2": "Zur Verbesserung der Benutzererfahrung",
+      "item3": "Um Betrug zu erkennen und zu verhindern",
+      "item4": "Um gesetzlichen Verpflichtungen zu entsprechen"
+    },
+    "security": {
+      "title": "Datensicherheit",
+      "content": "Wir setzen branchenübliche Sicherheitsmaßnahmen zur Sicherung Ihrer Daten ein. Ihre privaten Schlüssel verlassen Ihr Gerät niemals und werden nie an unsere Server übertragen. Wir verschlüsseln alle Daten im Transit und im Ruhezustand."
+    },
+    "rights": {
+      "title": "Ihre Rechte",
+      "intro": "Sie haben das Recht auf:",
+      "item1": "Greifen Sie auf Ihre persönlichen Daten zu",
+      "item2": "Löschen Sie Ihre Daten anfordern",
+      "item3": "Analytics deaktivieren",
+      "item4": "Ihre Daten exportieren"
+    },
+    "contact": {
+      "title": "Kontaktieren Sie uns",
+      "content": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter:"
+    }
+  },
+  "terms": {
+    "seoTitle": "Allgemeine Geschäftsbedingungen - {{appName}}",
+    "seoDescription": "Nutzungsbedingungen für {{appName}. Lesen Sie unsere Allgemeinen Geschäftsbedingungen für die Nutzung unseres Kryptowallet-Dienstes.",
+    "title": "Allgemeine Geschäftsbedingungen",
+    "lastUpdated": "Zuletzt aktualisiert",
+    "acceptance": {
+      "title": "Annahme der Bedingungen",
+      "content": "Durch die Verwendung von {{appName}} erklären Sie sich mit diesen Allgemeinen Geschäftsbedingungen einverstanden. Wenn Sie diesen Bedingungen nicht zustimmen, verwenden Sie bitte unseren Dienst nicht."
+    },
+    "description": {
+      "title": "Servicebeschreibung",
+      "content": "{{appName}} ist eine nicht-kontrollierte Kryptowallet, mit der Sie Ihre digitalen Vermögenswerte und Ihr dezentrales Identitätsverwaltung verwalten können. Wir halten Ihre privaten Schlüssel nicht und haben keinen Zugriff auf Ihre Mittel."
+    },
+    "eligibility": {
+      "title": "Berechtigung",
+      "intro": "Um unseren Service nutzen zu können, müssen Sie:",
+      "item1": "Mindestens 18 Jahre alt sein",
+      "item2": "Die rechtliche Fähigkeit besitzen, dieses Abkommen einzugehen",
+      "item3": "Nicht verboten sein, cryptocurrency-Dienstleistungen in Ihrer Rechtsordnung zu nutzen"
+    },
+    "responsibilities": {
+      "title": "Benutzerpflichten",
+      "intro": "Sie sind verantwortlich für:",
+      "item1": "Sicherung Ihrer privaten Schlüssel und Wiederherstellungssätze",
+      "item2": "Alle Aktivitäten, die unter deinem Wallet stattfinden",
+      "item3": "Einhaltung geltender Gesetze und Vorschriften",
+      "item4": "Das Verständnis der mit Kryptowährung verbundenen Risiken"
+    },
+    "risks": {
+      "title": "Risikohinweis",
+      "content": "Kryptowährungen und Blockchain-Technologie beinhalten erhebliche Risiken, darunter jedoch nicht ausschließlich: Preisschwankungen, regulatorische Unsicherheiten, technische Schwachstellen und das mögliche Verluste von Mitteln. Sie erkennen an, dass Sie diese Risiken verstehen, und übernehmen die volle Verantwortung für etwaige Verluste."
+    },
+    "prohibited": {
+      "title": "Verbotene Aktivitäten",
+      "intro": "Sie stimmen zu, nicht zu:",
+      "item1": "Verwenden Sie den Dienst für illegale Aktivitäten",
+      "item2": "Versuch, den Dienst zu hacken oder zu stören",
+      "item3": "Urheberrechte verletzen",
+      "item4": "Beteilige dich an Marktmanipulation"
+    },
+    "liability": {
+      "title": "Haftungsausschluss",
+      "content": "Soweit gesetzlich zulässig, übernimmt {{appName}} keine Haftung für indirekte, zufällige, besondere, folgenbedingte oder strafbewehrte Schäden, die aus der Nutzung des Dienstes entstehen."
+    },
+    "changes": {
+      "title": "Änderungen der Allgemeinen Geschäftsbedingungen",
+      "content": "Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern. Die fortgesetzte Nutzung des Dienstes nach Änderungen gilt als Akzeptanz der neuen Bedingungen."
+    },
+    "contact": {
+      "title": "Kontaktieren Sie uns",
+      "content": "Wenn Sie Fragen zu diesen Bedingungen haben, kontaktieren Sie uns bitte unter:"
+    }
   }
 }

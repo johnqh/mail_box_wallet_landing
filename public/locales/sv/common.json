@@ -1,8 +1,108 @@
 {
   "appName": "Signic ID",
+  "loading": "Läser in...",
+  "theme": {
+    "switchToLight": "Byt till ljusläge",
+    "switchToDark": "Byt till mörkt läge"
+  },
   "footer": {
-    "rights": "All rights reserved.",
-    "privacy": "Privacy",
-    "terms": "Terms"
+    "rights": "Alla rättigheter förbehållna.",
+    "privacy": "Integritet",
+    "terms": "Villkor"
+  },
+  "email": "Email",
+  "privacy": {
+    "seoTitle": "Integritetspolicy - {{appName}}",
+    "seoDescription": "Integritetspolicy för {{appName}. Lär dig hur vi skyddar din data och respekterar din integritet.",
+    "title": "Integritetspolicy",
+    "lastUpdated": "Senast uppdaterat",
+    "introduction": {
+      "title": "Inledning",
+      "content": "{{appName}} (\"vi\", \"vårt\" eller \"oss\") respekterar din integritet och är bundna att skydda din personuppgifter. Denna integritetspolicy förklarar hur vi samlar in, använder och skyddar din information när du använder vår plånboksapplikation."
+    },
+    "dataCollection": {
+      "title": "Information vi samlar",
+      "intro": "Vi samlar endast minimal information som behövs för att erbjuda våra tjänster:",
+      "item1": "Plånboksadresser du ansluter",
+      "item2": "Transaktionsdata synliga på offentliga blockchains",
+      "item3": "Användningsanalys (anonymiserad)",
+      "item4": "Enhetinformation för säkerhet"
+    },
+    "dataUse": {
+      "title": "Hur vi använder din information",
+      "item1": "För att erbjuda och underhålla vår tjänst",
+      "item2": "För att förbättra användarupplevelsen",
+      "item3": "För att upptäcka och förhindra bedrägerier",
+      "item4": "För att uppfylla rättsliga skyldigheter"
+    },
+    "security": {
+      "title": "Datasekretess",
+      "content": "Vi implementerar branschens standard säkerhetsåtgärder för att skydda din data. Dina privata nycklar lämnar aldrig din enhet och skickas aldrig till våra servrar. Vi använder kryptering för all data i överföring och i vila."
+    },
+    "rights": {
+      "title": "Dina rättigheter",
+      "intro": "Du har rätt att:",
+      "item1": "Kom åt dina personuppgifter",
+      "item2": "Anmäl radering av ditt data",
+      "item3": "Avboka analys",
+      "item4": "Exportera dina data"
+    },
+    "contact": {
+      "title": "Kontakta oss",
+      "content": "Om du har frågor om detta integritetspolicy, kontakta oss på:"
+    }
+  },
+  "terms": {
+    "seoTitle": "Användarvillkor - {{appName}}",
+    "seoDescription": "Villkor för tjänsten för {{appName}. Läs våra villkor för användning av vår kryptoplånbets tjänst.",
+    "title": "Villkor för tjänsten",
+    "lastUpdated": "Senast uppdaterad",
+    "acceptance": {
+      "title": "Godkännande av villkor",
+      "content": "Genom att använda eller komma åt {{appName}}, godkänner du att bindas av dessa Allmänna villkor. Om du inte godkänner dessa villkor, vänligen använd inte vår tjänst."
+    },
+    "description": {
+      "title": "Tjänstebeskrivning",
+      "content": "{{appName}} är en icke-ansvarig kryptowallet som gör att du kan hantera dina digitala tillgångar och decenterade identiteter. Vi äger inte dina privata nycklar eller har tillgång till dina medel."
+    },
+    "eligibility": {
+      "title": "Egenskapskrav",
+      "intro": "För att använda vår tjänst måste du:",
+      "item1": "Var åtminstone 18 år gammal",
+      "item2": "Har den rättsliga förmågan att ingå detta avtal",
+      "item3": "Inte vara förbjudna att använda kryptotjänster i ditt jurisdiktion"
+    },
+    "responsibilities": {
+      "title": "Användaransvar",
+      "intro": "Du är ansvarig för:",
+      "item1": "Skydda dina privata nycklar och återställningsfraser",
+      "item2": "All aktivitet som sker under ditt plånbok",
+      "item3": "Eftersom tillämpliga lagar och bestämmelser",
+      "item4": "Förstå de risker som är kopplade till kryptovaluta"
+    },
+    "risks": {
+      "title": "Riskuppgift",
+      "content": "Kryptowäxlar och blockkedjeteknologi innebär betydande risker, inklusive men inte begränsat till: prisvolatilitet, osäkerhet kring reglering, tekniska svagheter och möjlig förlust av medel. Du erkänner att du förstår dessa risker och antar helt ansvar för eventuella förluster."
+    },
+    "prohibited": {
+      "title": "Förbjudna aktiviteter",
+      "intro": "Du godkänner inte att:",
+      "item1": "Använd tjänsten för olagliga verksamheter",
+      "item2": "Försök att hacka eller störa tjänsten",
+      "item3": "Skrida upphovsrätt",
+      "item4": "Delta i marknadsmakulering"
+    },
+    "liability": {
+      "title": "Begränsning av ansvar",
+      "content": "Inom så stor utsträckning som tillåts av lag, skall {{appName}} inte ha ansvar för några indirekta, tillfälliga, speciella, följdskadade eller straffrättsliga skador som uppstår genom din användning av tjänsten."
+    },
+    "changes": {
+      "title": "Ändringar i villkor",
+      "content": "Vi behåller rätten att ändra dessa villkor när som helst. Fortsatt användning av tjänsten efter ändringar antas vara godkännande av de nya villkoren."
+    },
+    "contact": {
+      "title": "Kontakta oss",
+      "content": "Om du har frågor om dessa villkor, vänligen kontakta oss på:"
+    }
   }
 }

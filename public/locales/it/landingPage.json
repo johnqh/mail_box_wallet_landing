@@ -1,102 +1,102 @@
 {
   "seo": {
-    "title": "Signic ID - Personal ID with Crypto Technologies",
-    "description": "Secure crypto wallet and decentralized identity solution. Own your digital identity, manage assets across chains, and authenticate across Web3 seamlessly."
+    "title": "Signic ID - ID personale con tecnologie crittografiche",
+    "description": "Portafoglio crittografico sicuro e soluzione di identità decentralizzata. Possiedi la tua identità digitale, gestisci gli asset tra le catene e autenticati in modo semplice su Web3."
   },
   "hero": {
-    "badge": "Your Identity, Your Control",
-    "title": "Personal ID",
-    "subtitle": "with Crypto Technologies",
-    "description": "A secure wallet and decentralized identity solution. Own your digital identity, manage your assets, and authenticate across Web3 seamlessly.",
-    "cta": "Get Started",
-    "learnMore": "Learn More",
+    "badge": "La tua identità, il tuo controllo",
+    "title": "ID personale",
+    "subtitle": "con le tecnologie Crypto",
+    "description": "Una soluzione per portafoglio sicuro e identità decentralizzata. Possiedi la tua identità digitale, gestisci i tuoi asset e autenticati in modo semplice su Web3.",
+    "cta": "Inizia ora",
+    "learnMore": "Scopri di più",
     "trust": {
-      "secure": "Secure & Private",
+      "secure": "Sicuro e privato",
       "multiChain": "Multi-Chain",
-      "selfSovereign": "Self-Sovereign"
+      "selfSovereign": "Autonomo di sé"
     }
   },
   "features": {
-    "title": "Everything You Need",
-    "description": "A complete solution for managing your digital identity and crypto assets in one place.",
+    "title": "Tutto ciò di cui hai bisogno",
+    "description": "Una soluzione completa per gestire il tuo identità digitale e i tuoi asset crittografici in un unico posto.",
     "wallet": {
-      "title": "Secure Crypto Wallet",
-      "description": "Store and manage your digital assets securely across multiple blockchain networks with industry-leading security."
+      "title": "Portafoglio crittografico sicuro",
+      "description": "Memorizza e gestisci in modo sicuro i tuoi asset digitali su diverse reti blockchain con una sicurezza leader del settore."
     },
     "identity": {
-      "title": "Decentralized Identity",
-      "description": "Own your identity on-chain. Cryptographically verified and controlled entirely by you, not by corporations."
+      "title": "Identità decentralizzata",
+      "description": "Possiedi il tuo identità in modo crittografico verificato e controllato interamente da te, non da aziende."
     },
     "multiChain": {
-      "title": "Multi-Chain Support",
-      "description": "Works seamlessly across Ethereum, Solana, and other major blockchains. One wallet for all your chains."
+      "title": "Supporto multi-catena",
+      "description": "Funziona in modo impeccabile su Ethereum, Solana e altre principali blockchain. Un'unica wallet per tutte le tue catene."
     },
     "names": {
-      "title": "Human-Readable Names",
-      "description": "Use ENS, SNS, and other naming services. Share your identity easily with memorable names instead of long addresses."
+      "title": "Nomi leggibili dall'uomo",
+      "description": "Utilizza ENS, SNS e altri servizi di denominazione. Condividi la tua identità in modo semplice con nomi memorabili invece di indirizzi lunghi."
     },
     "privacy": {
-      "title": "Privacy Controls",
-      "description": "Choose what to share and what to keep private. Selective disclosure puts you in complete control of your data."
+      "title": "Impostazioni di controllo della privacy",
+      "description": "Scegli cosa condividere e cosa tenere riservato. La divulgazione selettiva ti dà il pieno controllo sui tuoi dati."
     },
     "credentials": {
-      "title": "Portable Credentials",
-      "description": "Attach verifiable credentials to your identity. Use them across any Web3 application without creating new accounts."
+      "title": "Credenziali portatili",
+      "description": "Collega credenziali verificabili al tuo identità. Utilizzale in qualsiasi applicazione Web3 senza creare nuovi account."
     }
   },
   "howItWorks": {
-    "title": "How It Works",
-    "description": "Get started in four simple steps and take control of your digital identity.",
+    "title": "Come funziona",
+    "description": "Inizia in quattro semplici passi e prendi il controllo del tuo identità digitale.",
     "steps": {
       "create": {
-        "title": "Create Your Wallet",
-        "description": "Generate a secure crypto wallet with military-grade encryption. Your keys, your coins, your control."
+        "title": "Crea il tuo portafoglio",
+        "description": "Crea un portafoglio crittografico sicuro con crittografia di livello militare. Le tue chiavi, i tuoi gettoni, il tuo controllo."
       },
       "claim": {
-        "title": "Claim Your Identity",
-        "description": "Register your unique on-chain identifier. Choose a memorable name that represents you in Web3."
+        "title": "Richiedi il tuo identità",
+        "description": "Registrati il tuo identificativo unico sulla catena. Scegli un nome memorabile che ti rappresenti in Web3."
       },
       "add": {
-        "title": "Add Credentials",
-        "description": "Attach verifiable credentials to your identity. Prove who you are without revealing everything."
+        "title": "Aggiungi credenziali",
+        "description": "Collega credenziali verificabili al tuo identità. Dimostra chi sei senza rivelare tutto."
       },
       "use": {
-        "title": "Use Everywhere",
-        "description": "Authenticate across Web3 apps seamlessly. One identity for the entire decentralized web."
+        "title": "Usalo ovunque",
+        "description": "Autenticațivi in modo semplice tra le app Web3. Un'identità per l'intero web decentralizzato."
       }
     }
   },
   "faq": {
-    "title": "Frequently Asked Questions",
-    "description": "Got questions? We have answers.",
+    "title": "Domande frequenti",
+    "description": "Hai domande? Abbiamo le risposte.",
     "items": {
       "different": {
-        "question": "What makes this different from regular wallets?",
-        "answer": "Signic ID combines a secure crypto wallet with a decentralized identity layer. Unlike regular wallets that only store assets, we provide a complete identity solution that lets you prove who you are, manage credentials, and authenticate across Web3 - all while maintaining full control of your data."
+        "question": "Cosa lo rende diverso dalle normali borse?",
+        "answer": "Signic ID combina un portafoglio crittografico sicuro con uno strato di identità decentralizzata. A differenza dei portafogli normali che memorizzano solo asset, offriamo una soluzione completa per l'identità che ti permette di dimostrare chi sei, gestire credenziali e autenticarti su Web3 - tutto mantenendo il pieno controllo sui tuoi dati."
       },
       "security": {
-        "question": "How is my data secured?",
-        "answer": "Your private keys are encrypted locally and never leave your device. We use industry-standard cryptographic algorithms and support hardware wallet integration for additional security. Your identity data is stored on decentralized networks, not on our servers."
+        "question": "Come è protetto i miei dati?",
+        "answer": "Le tue chiavi private sono crittografate localmente e non lasciano mai il tuo dispositivo. Utilizziamo algoritmi crittografici standard dell'industria e supportiamo l'integrazione con portafogli hardware per una sicurezza aggiuntiva. I tuoi dati identificativi sono memorizzati su reti decentralizzate, non sui nostri server."
       },
       "chains": {
-        "question": "Which blockchains are supported?",
-        "answer": "We support Ethereum, Solana, and all major EVM-compatible chains including Polygon, Arbitrum, Optimism, Base, and more. Our multi-chain architecture lets you manage assets across all networks from a single interface."
+        "question": "Quali blockchain sono supportati?",
+        "answer": "Supportiamo Ethereum, Solana e tutte le principali catene compatibili EVM, incluse Polygon, Arbitrum, Optimism, Base e altre. La nostra architettura multi-catena ti permette di gestire gli asset su tutte le reti da un'unica interfaccia."
       },
       "recovery": {
-        "question": "Can I recover my identity if I lose access?",
-        "answer": "Yes. We support multiple recovery options including seed phrase backup, social recovery through trusted contacts, and hardware wallet backup. Your identity is linked to your cryptographic keys, so as long as you can recover your keys, you can recover your identity."
+        "question": "Posso recuperare il mio identità se perdo l'accesso?",
+        "answer": "Sì. Supportiamo diverse opzioni di ripristino, incluse il backup della frase di seed, il ripristino sociale tramite contatti di fiducia e il backup del portafoglio hardware. Il tuo identità è collegata alle tue chiavi crittografiche, quindi finché riesci a ripristinare le tue chiavi, puoi ripristinare la tua identità."
       },
       "cost": {
-        "question": "Is there a cost to use the service?",
-        "answer": "The basic wallet and identity features are free to use. Some advanced features like premium naming services or enterprise integrations may have associated costs. Network transaction fees (gas) apply when interacting with blockchains."
+        "question": "C'è un costo per utilizzare il servizio?",
+        "answer": "Le funzionalità di base del portafoglio e dell'identità sono gratuite. Alcune funzionalità avanzate, come i servizi di denominazione premium o le integrazioni aziendali, potrebbero comportare costi aggiuntivi. Si applicano le commissioni di rete (gas) quando si interagisce con le blockchain."
       }
     }
   },
   "cta": {
-    "badge": "Start Your Web3 Journey",
-    "title": "Ready to Take Control?",
-    "description": "Join thousands of users who have already secured their digital identity with Signic ID.",
-    "button": "Get Started Now",
-    "subtext": "Free to use. No credit card required."
+    "badge": "Inizia il tuo viaggio su Web3",
+    "title": "Pronti a prendere il controllo?",
+    "description": "Unisciti a migliaia di utenti che hanno già protetto il proprio identità digitale con Signic ID.",
+    "button": "Inizia ora",
+    "subtext": "Gratis da usare. Nessuna carta di credito richiesta."
   }
 }

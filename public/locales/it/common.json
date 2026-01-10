@@ -1,8 +1,108 @@
 {
   "appName": "Signic ID",
+  "loading": "Caricamento...",
+  "theme": {
+    "switchToLight": "Passa alla modalità chiara",
+    "switchToDark": "Passa alla modalità scura"
+  },
   "footer": {
-    "rights": "All rights reserved.",
+    "rights": "Tutti i diritti riservati.",
     "privacy": "Privacy",
-    "terms": "Terms"
+    "terms": "Termini"
+  },
+  "email": "Email",
+  "privacy": {
+    "seoTitle": "Informativa sulla privacy - {{appName}}",
+    "seoDescription": "Politica sulla riservatezza per {{appName}. Scopri come proteggiamo i tuoi dati e rispettiamo la tua privacy.",
+    "title": "Informativa sulla privacy",
+    "lastUpdated": "Ultimo aggiornamento",
+    "introduction": {
+      "title": "Introduzione",
+      "content": "{{appName}} (\"noi\", \"nostro\" o \"noi\") rispetta la tua privacy e si impegna a proteggere i tuoi dati personali. Questa informativa sulla privacy spiega come raccogliamo, utilizziamo e proteggiamo le tue informazioni quando utilizzi la nostra applicazione per portafogli."
+    },
+    "dataCollection": {
+      "title": "Informazioni che raccogliamo",
+      "intro": "Raccogliamo solo le informazioni minime necessarie per fornire i nostri servizi:",
+      "item1": "Indirizzi del portafoglio a cui ti connetti",
+      "item2": "Dati delle transazioni visibili sulle blockchain pubbliche",
+      "item3": "Analisi dell'utilizzo (anonimizzate)",
+      "item4": "Informazioni sul dispositivo per la sicurezza"
+    },
+    "dataUse": {
+      "title": "Come utilizziamo le tue informazioni",
+      "item1": "Per fornire e mantenere il nostro servizio",
+      "item2": "Per migliorare l'esperienza dell'utente",
+      "item3": "Per rilevare e prevenire frodi",
+      "item4": "Per rispettare gli obblighi legali"
+    },
+    "security": {
+      "title": "Sicurezza dei dati",
+      "content": "Implementiamo misure di sicurezza standard del settore per proteggere i tuoi dati. Le tue chiavi private non lasciano mai il tuo dispositivo e non vengono mai trasmesse ai nostri server. Utilizziamo la crittografia per tutti i dati in transito e in riposo."
+    },
+    "rights": {
+      "title": "I tuoi diritti",
+      "intro": "Hai il diritto di:",
+      "item1": "Accedi ai tuoi dati personali",
+      "item2": "Richiedi la cancellazione dei tuoi dati",
+      "item3": "Disiscriviti dall'analisi",
+      "item4": "Esporta i tuoi dati"
+    },
+    "contact": {
+      "title": "Contattaci",
+      "content": "In caso di domande riguardo questa politica sulla privacy, contattaci all'indirizzo:"
+    }
+  },
+  "terms": {
+    "seoTitle": "Condizioni di servizio - {{appName}}",
+    "seoDescription": "Termini di servizio per {{appName}. Leggi i nostri termini e condizioni per utilizzare il servizio del portafoglio crittografico.",
+    "title": "Termini di servizio",
+    "lastUpdated": "Ultimo aggiornamento",
+    "acceptance": {
+      "title": "Accettazione dei termini",
+      "content": "Accedendo o utilizzando {{appName}}, acconsenti a essere vincolato da questi Termini di Servizio. Se non sei d'accordo con questi termini, non utilizzare il nostro servizio."
+    },
+    "description": {
+      "title": "Descrizione del servizio",
+      "content": "{{appName}} è un portafoglio crittografico non custodito che ti permette di gestire i tuoi asset digitali e la tua identità decentralizzata. Non conserviamo le tue chiavi private né abbiamo accesso ai tuoi fondi."
+    },
+    "eligibility": {
+      "title": "Adeguato",
+      "intro": "Per utilizzare il nostro servizio, è necessario:",
+      "item1": "Avere almeno 18 anni",
+      "item2": "Avere la capacità giuridica di stipulare questo accordo",
+      "item3": "Non essere proibito dall'utilizzare i servizi di criptovaluta nella tua giurisdizione"
+    },
+    "responsibilities": {
+      "title": "Responsabilità dell'utente",
+      "intro": "Sei responsabile per:",
+      "item1": "Protezione delle tue chiavi private e delle frasi di ripristino",
+      "item2": "Tutte le attività che si verificano sotto il tuo portafoglio",
+      "item3": "Il rispetto delle leggi e dei regolamenti applicabili",
+      "item4": "Comprendere i rischi associati alle criptovalute"
+    },
+    "risks": {
+      "title": "Divieto di rischio",
+      "content": "La criptovaluta e la tecnologia blockchain comportano rischi significativi, inclusi ma non limitati a: volatilità dei prezzi, incertezza normativa, vulnerabilità tecniche e possibile perdita di fondi. Confermi di comprendere questi rischi e di assumerti la piena responsabilità per eventuali perdite."
+    },
+    "prohibited": {
+      "title": "Attività proibite",
+      "intro": "Ti impegni a non:",
+      "item1": "Utilizza il servizio per attività illegali",
+      "item2": "Prova a violare o a interrompere il servizio",
+      "item3": "Violare i diritti di proprietà intellettuale",
+      "item4": "Partecipa alla manipolazione del mercato"
+    },
+    "liability": {
+      "title": "Limitazione della responsabilità",
+      "content": "Fino al massimo grado consentito dalla legge, {{appName}} non potrà essere ritenuta responsabile per danni indiretti, incidentali, speciali, conseguenti o punitivi derivanti dal tuo utilizzo del servizio."
+    },
+    "changes": {
+      "title": "Modifiche ai Termini",
+      "content": "Ci riserviamo il diritto di modificare questi termini in qualsiasi momento. L'uso continuato del servizio dopo le modifiche costituisce accettazione dei nuovi termini."
+    },
+    "contact": {
+      "title": "Contattaci",
+      "content": "In caso di domande riguardo questi termini, contattaci all'indirizzo:"
+    }
   }
 }

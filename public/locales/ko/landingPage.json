@@ -1,102 +1,102 @@
 {
   "seo": {
-    "title": "Signic ID - Personal ID with Crypto Technologies",
-    "description": "Secure crypto wallet and decentralized identity solution. Own your digital identity, manage assets across chains, and authenticate across Web3 seamlessly."
+    "title": "Signic ID - 암호화 기술을 활용한 개인 식별자",
+    "description": "보안이 강화된 암호화폐 지갑 및 탈중앙화된 신원 인증 솔루션. 디지털 신원을 소유하고, 다양한 체인을 넘나들며 자산을 관리하며, Web3에서 원활하게 인증하세요."
   },
   "hero": {
-    "badge": "Your Identity, Your Control",
-    "title": "Personal ID",
-    "subtitle": "with Crypto Technologies",
-    "description": "A secure wallet and decentralized identity solution. Own your digital identity, manage your assets, and authenticate across Web3 seamlessly.",
-    "cta": "Get Started",
-    "learnMore": "Learn More",
+    "badge": "당신의 정체성, 당신의 통제",
+    "title": "개인 식별번호",
+    "subtitle": "암호화 기술과 함께",
+    "description": "안전한 지갑과 탈중앙화된 신원 솔루션. 디지털 신원을 소유하고 자산을 관리하며, Web3에서 원활하게 인증하세요.",
+    "cta": "시작하기",
+    "learnMore": "자세히 알아보기",
     "trust": {
-      "secure": "Secure & Private",
-      "multiChain": "Multi-Chain",
-      "selfSovereign": "Self-Sovereign"
+      "secure": "안전하고 개인적인",
+      "multiChain": "다중 체인",
+      "selfSovereign": "자기 주권"
     }
   },
   "features": {
-    "title": "Everything You Need",
-    "description": "A complete solution for managing your digital identity and crypto assets in one place.",
+    "title": "모든 것이 필요합니다",
+    "description": "디지털 신분과 암호화 자산을 한 곳에서 관리하는 완전한 솔루션.",
     "wallet": {
-      "title": "Secure Crypto Wallet",
-      "description": "Store and manage your digital assets securely across multiple blockchain networks with industry-leading security."
+      "title": "보안이 강한 크립토 지갑",
+      "description": "다양한 블록체인 네트워크를 통해 디지털 자산을 안전하게 저장하고 관리하세요. 업계 최고 수준의 보안을 제공합니다."
     },
     "identity": {
-      "title": "Decentralized Identity",
-      "description": "Own your identity on-chain. Cryptographically verified and controlled entirely by you, not by corporations."
+      "title": "분산형 신원",
+      "description": "당신의 신원을 블록체인상에서 소유하세요. 암호학적으로 검증되며, 기업이 아니라 당신이 완전히 통제합니다."
     },
     "multiChain": {
-      "title": "Multi-Chain Support",
-      "description": "Works seamlessly across Ethereum, Solana, and other major blockchains. One wallet for all your chains."
+      "title": "다중 체인 지원",
+      "description": "이더리움, 솔라나 및 기타 주요 블록체인 간에 원활하게 작동합니다. 하나의 지갑으로 모든 체인을 관리하세요."
     },
     "names": {
-      "title": "Human-Readable Names",
-      "description": "Use ENS, SNS, and other naming services. Share your identity easily with memorable names instead of long addresses."
+      "title": "읽기 쉬운 이름",
+      "description": "ENS, SNS 및 기타 이름 서비스를 사용하세요. 긴 주소 대신 기억하기 쉬운 이름으로 신분을 쉽게 공유하세요."
     },
     "privacy": {
-      "title": "Privacy Controls",
-      "description": "Choose what to share and what to keep private. Selective disclosure puts you in complete control of your data."
+      "title": "개인정보 컨트롤",
+      "description": "공유할 것과 개인 정보로 보관할 것을 선택하세요. 선택적 공개를 통해 귀하가 데이터를 완전히 통제할 수 있습니다."
     },
     "credentials": {
-      "title": "Portable Credentials",
-      "description": "Attach verifiable credentials to your identity. Use them across any Web3 application without creating new accounts."
+      "title": "이동식 자격 증명",
+      "description": "신원에 검증 가능한 자격 증명을 첨부하세요. 새로운 계정을 만들지 않고도 어떤 Web3 애플리케이션에서도 이를 사용하세요."
     }
   },
   "howItWorks": {
-    "title": "How It Works",
-    "description": "Get started in four simple steps and take control of your digital identity.",
+    "title": "작동 방식",
+    "description": "네 가지 간단한 단계로 시작하여 디지털 신분을 스스로 관리하세요.",
     "steps": {
       "create": {
-        "title": "Create Your Wallet",
-        "description": "Generate a secure crypto wallet with military-grade encryption. Your keys, your coins, your control."
+        "title": "지갑 만들기",
+        "description": "군용 수준의 암호화를 갖춘 보안 강화된 크립토 지갑을 생성하세요. 귀하의 키, 귀하의 코인, 귀하의 통제."
       },
       "claim": {
-        "title": "Claim Your Identity",
-        "description": "Register your unique on-chain identifier. Choose a memorable name that represents you in Web3."
+        "title": "아이디를 확보하세요",
+        "description": "온체인 고유 식별자를 등록하세요. Web3에서 자신을 대표하는 기억하기 쉬운 이름을 선택하세요."
       },
       "add": {
-        "title": "Add Credentials",
-        "description": "Attach verifiable credentials to your identity. Prove who you are without revealing everything."
+        "title": "자격 증명 추가",
+        "description": "신뢰할 수 있는 자격 증명을 당신의 신원에 첨부하세요. 모든 것을 드러내지 않고도 자신이 누구인지 증명하세요."
       },
       "use": {
-        "title": "Use Everywhere",
-        "description": "Authenticate across Web3 apps seamlessly. One identity for the entire decentralized web."
+        "title": "모든 곳에서 사용하기",
+        "description": "Web3 앱 간에 원활하게 인증하세요. 분산형 웹 전체에서 하나의 아이덴티티를 사용하세요."
       }
     }
   },
   "faq": {
-    "title": "Frequently Asked Questions",
-    "description": "Got questions? We have answers.",
+    "title": "자주 묻는 질문",
+    "description": "질문이 있나요? 우리는 답을 가지고 있습니다.",
     "items": {
       "different": {
-        "question": "What makes this different from regular wallets?",
-        "answer": "Signic ID combines a secure crypto wallet with a decentralized identity layer. Unlike regular wallets that only store assets, we provide a complete identity solution that lets you prove who you are, manage credentials, and authenticate across Web3 - all while maintaining full control of your data."
+        "question": "이것이 일반 지갑과 다른 점은 무엇입니까?",
+        "answer": "Signic ID는 안전한 크립토 지갑과 분산형 신원 인증 계층을 결합합니다. 일반 지갑이 자산만 저장하는 것과 달리, 우리는 누구인지 증명하고, 증명서를 관리하며, Web3에서 인증할 수 있는 완전한 신원 솔루션을 제공합니다. 모든 과정에서 귀하의 데이터를 완전히 제어할 수 있습니다."
       },
       "security": {
-        "question": "How is my data secured?",
-        "answer": "Your private keys are encrypted locally and never leave your device. We use industry-standard cryptographic algorithms and support hardware wallet integration for additional security. Your identity data is stored on decentralized networks, not on our servers."
+        "question": "내 데이터는 어떻게 보호되나요?",
+        "answer": "귀하의 개인 키는 로컬에서 암호화되어 디바이스를 벗어나지 않습니다. 우리는 업계 표준 암호화 알고리즘을 사용하며 하드웨어 지갑 통합을 지원하여 추가 보안을 제공합니다. 귀하의 신원 데이터는 서버에 저장되지 않고 분산형 네트워크에 저장됩니다."
       },
       "chains": {
-        "question": "Which blockchains are supported?",
-        "answer": "We support Ethereum, Solana, and all major EVM-compatible chains including Polygon, Arbitrum, Optimism, Base, and more. Our multi-chain architecture lets you manage assets across all networks from a single interface."
+        "question": "지원되는 블록체인은 무엇입니까?",
+        "answer": "우리는 이더리움, 솔라나, 그리고 폴리곤, 아리바트럼, 옵티미즘, 베이스 등 주요 EVM 호환 체인을 지원합니다. 다중 체인 아키텍처를 통해 하나의 인터페이스에서 모든 네트워크의 자산을 관리할 수 있습니다."
       },
       "recovery": {
-        "question": "Can I recover my identity if I lose access?",
-        "answer": "Yes. We support multiple recovery options including seed phrase backup, social recovery through trusted contacts, and hardware wallet backup. Your identity is linked to your cryptographic keys, so as long as you can recover your keys, you can recover your identity."
+        "question": "내 접근 권한을 잃었을 때 내 신원을 복구할 수 있나요?",
+        "answer": "예. 우리는 시드 키워드 백업, 신뢰할 수 있는 연락처를 통한 소셜 복구, 하드웨어 지갑 백업을 포함한 여러 복구 옵션을 지원합니다. 귀하의 정체성은 암호화 키에 연결되어 있으므로, 키를 복구할 수 있다면 정체성도 복구할 수 있습니다."
       },
       "cost": {
-        "question": "Is there a cost to use the service?",
-        "answer": "The basic wallet and identity features are free to use. Some advanced features like premium naming services or enterprise integrations may have associated costs. Network transaction fees (gas) apply when interacting with blockchains."
+        "question": "서비스를 사용하는 데 비용이 있나요?",
+        "answer": "기본 지갑 및 신원 기능은 무료로 사용할 수 있습니다. 프리미엄 이름 서비스 또는 기업 통합과 같은 일부 고급 기능은 관련 비용이 발생할 수 있습니다. 블록체인과 상호 작용할 때 네트워크 거래 수수료(가스)가 부과됩니다."
       }
     }
   },
   "cta": {
-    "badge": "Start Your Web3 Journey",
-    "title": "Ready to Take Control?",
-    "description": "Join thousands of users who have already secured their digital identity with Signic ID.",
-    "button": "Get Started Now",
-    "subtext": "Free to use. No credit card required."
+    "badge": "Web3 여정을 시작하세요",
+    "title": "통제를 시작할 준비 되셨나요?",
+    "description": "Signic ID로 디지털 신원을 이미 확보한 수천 명의 사용자들과 함께하세요.",
+    "button": "지금 시작하기",
+    "subtext": "사용이 무료입니다. 신용카드가 필요하지 않습니다."
   }
 }
