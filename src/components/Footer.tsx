@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import LocalizedLink from './LocalizedLink';
+import { APP_NAME } from '../config/constants';
 
 const SOCIAL_LINKS = [
   {
@@ -65,7 +66,7 @@ export default function Footer() {
           <div className="text-sm text-gray-600 dark:text-gray-400">
             <span>&copy; {currentYear} </span>
             <LocalizedLink to="/" className="hover:text-blue-600 dark:hover:text-blue-400">
-              {t('appName', 'Mail Box Wallet')}
+              {t('appName', APP_NAME)}
             </LocalizedLink>
             <span>. {t('footer.rights', 'All rights reserved.')}</span>
           </div>

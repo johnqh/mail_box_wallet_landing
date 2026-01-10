@@ -1,6 +1,6 @@
 {
   "seo": {
-    "title": "Mail Box Wallet - Personal ID with Crypto Technologies",
+    "title": "Signic ID - Personal ID with Crypto Technologies",
     "description": "Secure crypto wallet and decentralized identity solution. Own your digital identity, manage assets across chains, and authenticate across Web3 seamlessly."
   },
   "hero": {
@@ -72,7 +72,7 @@
     "items": {
       "different": {
         "question": "What makes this different from regular wallets?",
-        "answer": "Mail Box Wallet combines a secure crypto wallet with a decentralized identity layer. Unlike regular wallets that only store assets, we provide a complete identity solution that lets you prove who you are, manage credentials, and authenticate across Web3 - all while maintaining full control of your data."
+        "answer": "Signic ID combines a secure crypto wallet with a decentralized identity layer. Unlike regular wallets that only store assets, we provide a complete identity solution that lets you prove who you are, manage credentials, and authenticate across Web3 - all while maintaining full control of your data."
       },
       "security": {
         "question": "How is my data secured?",
@@ -95,7 +95,7 @@
   "cta": {
     "badge": "Start Your Web3 Journey",
     "title": "Ready to Take Control?",
-    "description": "Join thousands of users who have already secured their digital identity with Mail Box Wallet.",
+    "description": "Join thousands of users who have already secured their digital identity with Signic ID.",
     "button": "Get Started Now",
     "subtext": "Free to use. No credit card required."
   }

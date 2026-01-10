@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { ArrowRightIcon, SparklesIcon } from '@heroicons/react/24/outline';
+import { APP_NAME } from '../config/constants';
 
 const CTA_URL = import.meta.env.VITE_CTA_URL || '#';
 
@@ -29,7 +30,7 @@ export default function CTASection() {
         <p className="text-lg sm:text-xl text-white/80 mb-10 max-w-2xl mx-auto">
           {t(
             'cta.description',
-            'Join thousands of users who have already secured their digital identity with Mail Box Wallet.'
+            `Join thousands of users who have already secured their digital identity with ${APP_NAME}.`
           )}
         </p>
 

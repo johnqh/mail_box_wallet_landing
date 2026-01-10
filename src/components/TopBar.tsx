@@ -1,49 +1,87 @@
+import { FC, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { SunIcon, MoonIcon } from '@heroicons/react/24/outline';
+import { AppTopBar, type MenuItemConfig } from '@sudobility/building_blocks';
 import LocalizedLink from './LocalizedLink';
-import LanguageSelector from './LanguageSelector';
 import { useTheme } from '../context/ThemeContext';
+import { useLanguage } from '../context/LanguageContext';
+import { addLanguageToPath, removeLanguageFromPath } from '../utils/languageRouting';
+import type { SupportedLanguage } from '../constants/languages';
+import { APP_NAME } from '../config/constants';
+
+// Wrapper component to integrate LocalizedLink with AppTopBar
+const LocalizedLinkWrapper: FC<{
+  href: string;
+  className?: string;
+  children: React.ReactNode;
+}> = ({ href, className, children }) => {
+  return (
+    <LocalizedLink to={href} className={className}>
+      {children}
+    </LocalizedLink>
+  );
+};
 
 export default function TopBar() {
   const { t } = useTranslation('common');
   const { resolvedTheme, setTheme } = useTheme();
+  const { language, languages } = useLanguage();
+  const navigate = useNavigate();
+  const location = useLocation();
 
   const toggleTheme = () => {
     setTheme(resolvedTheme === 'dark' ? 'light' : 'dark');
   };
 
-  return (
-    <header className="sticky top-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          {/* Logo */}
-          <LocalizedLink to="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">W</span>
-            </div>
-            <span className="font-bold text-lg text-gray-900 dark:text-white">
-              {t('appName', 'Wallet')}
-            </span>
-          </LocalizedLink>
+  // Handle language change with URL routing
+  const handleLanguageChange = useCallback(
+    (langCode: string) => {
+      const pathWithoutLang = removeLanguageFromPath(location.pathname);
+      const newPath = addLanguageToPath(pathWithoutLang, langCode as SupportedLanguage);
+      navigate(newPath + location.search + location.hash);
+    },
+    [location.pathname, location.search, location.hash, navigate]
+  );
 
-          {/* Right side - Language selector and theme toggle */}
-          <div className="flex items-center gap-2">
-            <button
-              type="button"
-              onClick={toggleTheme}
-              className="p-2 rounded-lg text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
-              aria-label={resolvedTheme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
-            >
-              {resolvedTheme === 'dark' ? (
-                <SunIcon className="h-5 w-5" />
-              ) : (
-                <MoonIcon className="h-5 w-5" />
-              )}
-            </button>
-            <LanguageSelector variant="compact" />
-          </div>
-        </div>
-      </div>
-    </header>
+  // Convert languages to building_blocks format
+  const languageConfigs = languages.map(lang => ({
+    code: lang.code,
+    name: lang.name,
+    flag: lang.flag,
+  }));
+
+  // Empty menu items for landing page (no navigation needed)
+  const menuItems: MenuItemConfig[] = [];
+
+  // Render theme toggle button in account section
+  const renderAccountSection = () => (
+    <button
+      type="button"
+      onClick={toggleTheme}
+      className="p-2 rounded-lg text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+      aria-label={resolvedTheme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
+    >
+      {resolvedTheme === 'dark' ? <SunIcon className="h-5 w-5" /> : <MoonIcon className="h-5 w-5" />}
+    </button>
+  );
+
+  return (
+    <AppTopBar
+      logo={{
+        src: '/logo.png',
+        appName: t('appName', APP_NAME),
+        onClick: () => navigate(`/${language}`),
+      }}
+      menuItems={menuItems}
+      languages={languageConfigs}
+      currentLanguage={language}
+      onLanguageChange={handleLanguageChange}
+      LinkComponent={LocalizedLinkWrapper}
+      sticky
+      zIndex="highest"
+      ariaLabel="Main navigation"
+      renderAccountSection={renderAccountSection}
+    />
   );
 }

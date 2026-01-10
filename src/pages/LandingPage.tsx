@@ -6,6 +6,7 @@ import FeaturesSection from '../sections/FeaturesSection';
 import HowItWorksSection from '../sections/HowItWorksSection';
 import FAQSection from '../sections/FAQSection';
 import CTASection from '../sections/CTASection';
+import { APP_NAME } from '../config/constants';
 
 export default function LandingPage() {
   const { t } = useTranslation('landingPage');
@@ -13,7 +14,7 @@ export default function LandingPage() {
   return (
     <>
       <SEOHead
-        title={t('seo.title', 'Mail Box Wallet - Personal ID with Crypto Technologies')}
+        title={t('seo.title', `${APP_NAME} - Personal ID with Crypto Technologies`)}
         description={t(
           'seo.description',
           'Secure crypto wallet and decentralized identity solution. Own your digital identity, manage assets across chains, and authenticate across Web3 seamlessly.'

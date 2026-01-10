@@ -1,20 +1,20 @@
 {
   "name": "mail-box-wallet-landing",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
-    "dev": "vite --port 5174",
+    "dev": "vite --port 5177",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "lint:fix": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0 --fix",
     "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json,css,md}\" \"public/**/*.{json,html}\"",
     "format:check": "prettier --check \"src/**/*.{ts,tsx,js,jsx,json,css,md}\" \"public/**/*.{json,html}\"",
-    "preview": "vite preview --port 5174"
+    "preview": "vite preview --port 5177"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
-    "@sudobility/building_blocks": "^0.0.16",
+    "@sudobility/building_blocks": "^0.0.17",
     "@sudobility/components": "^4.0.134",
     "@sudobility/design": "^1.1.17",
     "class-variance-authority": "^0.7.1",
