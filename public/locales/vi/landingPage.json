@@ -1,0 +1,102 @@
+{
+  "seo": {
+    "title": "Mail Box Wallet - Personal ID with Crypto Technologies",
+    "description": "Secure crypto wallet and decentralized identity solution. Own your digital identity, manage assets across chains, and authenticate across Web3 seamlessly."
+  },
+  "hero": {
+    "badge": "Your Identity, Your Control",
+    "title": "Personal ID",
+    "subtitle": "with Crypto Technologies",
+    "description": "A secure wallet and decentralized identity solution. Own your digital identity, manage your assets, and authenticate across Web3 seamlessly.",
+    "cta": "Get Started",
+    "learnMore": "Learn More",
+    "trust": {
+      "secure": "Secure & Private",
+      "multiChain": "Multi-Chain",
+      "selfSovereign": "Self-Sovereign"
+    }
+  },
+  "features": {
+    "title": "Everything You Need",
+    "description": "A complete solution for managing your digital identity and crypto assets in one place.",
+    "wallet": {
+      "title": "Secure Crypto Wallet",
+      "description": "Store and manage your digital assets securely across multiple blockchain networks with industry-leading security."
+    },
+    "identity": {
+      "title": "Decentralized Identity",
+      "description": "Own your identity on-chain. Cryptographically verified and controlled entirely by you, not by corporations."
+    },
+    "multiChain": {
+      "title": "Multi-Chain Support",
+      "description": "Works seamlessly across Ethereum, Solana, and other major blockchains. One wallet for all your chains."
+    },
+    "names": {
+      "title": "Human-Readable Names",
+      "description": "Use ENS, SNS, and other naming services. Share your identity easily with memorable names instead of long addresses."
+    },
+    "privacy": {
+      "title": "Privacy Controls",
+      "description": "Choose what to share and what to keep private. Selective disclosure puts you in complete control of your data."
+    },
+    "credentials": {
+      "title": "Portable Credentials",
+      "description": "Attach verifiable credentials to your identity. Use them across any Web3 application without creating new accounts."
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "description": "Get started in four simple steps and take control of your digital identity.",
+    "steps": {
+      "create": {
+        "title": "Create Your Wallet",
+        "description": "Generate a secure crypto wallet with military-grade encryption. Your keys, your coins, your control."
+      },
+      "claim": {
+        "title": "Claim Your Identity",
+        "description": "Register your unique on-chain identifier. Choose a memorable name that represents you in Web3."
+      },
+      "add": {
+        "title": "Add Credentials",
+        "description": "Attach verifiable credentials to your identity. Prove who you are without revealing everything."
+      },
+      "use": {
+        "title": "Use Everywhere",
+        "description": "Authenticate across Web3 apps seamlessly. One identity for the entire decentralized web."
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "Got questions? We have answers.",
+    "items": {
+      "different": {
+        "question": "What makes this different from regular wallets?",
+        "answer": "Mail Box Wallet combines a secure crypto wallet with a decentralized identity layer. Unlike regular wallets that only store assets, we provide a complete identity solution that lets you prove who you are, manage credentials, and authenticate across Web3 - all while maintaining full control of your data."
+      },
+      "security": {
+        "question": "How is my data secured?",
+        "answer": "Your private keys are encrypted locally and never leave your device. We use industry-standard cryptographic algorithms and support hardware wallet integration for additional security. Your identity data is stored on decentralized networks, not on our servers."
+      },
+      "chains": {
+        "question": "Which blockchains are supported?",
+        "answer": "We support Ethereum, Solana, and all major EVM-compatible chains including Polygon, Arbitrum, Optimism, Base, and more. Our multi-chain architecture lets you manage assets across all networks from a single interface."
+      },
+      "recovery": {
+        "question": "Can I recover my identity if I lose access?",
+        "answer": "Yes. We support multiple recovery options including seed phrase backup, social recovery through trusted contacts, and hardware wallet backup. Your identity is linked to your cryptographic keys, so as long as you can recover your keys, you can recover your identity."
+      },
+      "cost": {
+        "question": "Is there a cost to use the service?",
+        "answer": "The basic wallet and identity features are free to use. Some advanced features like premium naming services or enterprise integrations may have associated costs. Network transaction fees (gas) apply when interacting with blockchains."
+      }
+    }
+  },
+  "cta": {
+    "badge": "Start Your Web3 Journey",
+    "title": "Ready to Take Control?",
+    "description": "Join thousands of users who have already secured their digital identity with Mail Box Wallet.",
+    "button": "Get Started Now",
+    "subtext": "Free to use. No credit card required."
+  }
+}
