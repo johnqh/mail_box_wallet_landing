@@ -8,6 +8,7 @@ export default defineConfig({
     alias: {
       // Stub out optional peer dependencies from @sudobility/building_blocks
       'firebase/auth': resolve(__dirname, 'src/stubs/firebase-auth.ts'),
+      '@sudobility/subscription-components': resolve(__dirname, 'src/stubs/subscription-components.ts'),
     },
   },
   build: {
