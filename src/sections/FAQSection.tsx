@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { Section } from '@sudobility/components';
 import { ChevronDownIcon } from '@heroicons/react/24/outline';
 
 const FAQ_KEYS = ['different', 'security', 'chains', 'recovery', 'cost'];
@@ -13,8 +14,8 @@ export default function FAQSection() {
   };
 
   return (
-    <section id="faq" className="py-20 lg:py-32 bg-white dark:bg-gray-800">
-      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    <Section id="faq" variant="feature" spacing="4xl" className="lg:py-32">
+      <div className="max-w-3xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
@@ -63,6 +64,6 @@ export default function FAQSection() {
           ))}
         </div>
       </div>
-    </section>
+    </Section>
   );
 }

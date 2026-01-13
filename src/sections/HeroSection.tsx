@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { Section } from '@sudobility/components';
 import { SparklesIcon, ArrowRightIcon } from '@heroicons/react/24/outline';
 
 const CTA_URL = import.meta.env.VITE_CTA_URL || '#';
@@ -7,7 +8,7 @@ export default function HeroSection() {
   const { t } = useTranslation('landingPage');
 
   return (
-    <section className="relative py-20 lg:py-32 overflow-hidden">
+    <Section variant="hero" spacing="4xl" className="lg:py-32">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 dark:from-gray-900 dark:via-blue-900/20 dark:to-purple-900/20" />
 
@@ -97,6 +98,6 @@ export default function HeroSection() {
           </div>
         </div>
       </div>
-    </section>
+    </Section>
   );
 }
