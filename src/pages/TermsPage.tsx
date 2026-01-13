@@ -26,8 +26,7 @@ export default function TermsPage() {
         ]}
       />
       <ScreenContainer>
-        <Section as="main" spacing="2xl">
-          <div className="max-w-4xl mx-auto">
+        <Section as="main" spacing="2xl" maxWidth="4xl">
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-8">
             {t('terms.title', 'Terms of Service')}
           </h1>
@@ -193,7 +192,6 @@ export default function TermsPage() {
                 </p>
               </div>
             </section>
-          </div>
           </div>
         </Section>
       </ScreenContainer>

@@ -21,8 +21,7 @@ export default function PrivacyPage() {
         keywords={['privacy policy', 'data protection', 'GDPR', 'crypto wallet privacy']}
       />
       <ScreenContainer>
-        <Section as="main" spacing="2xl">
-          <div className="max-w-4xl mx-auto">
+        <Section as="main" spacing="2xl" maxWidth="4xl">
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-8">
             {t('privacy.title', 'Privacy Policy')}
           </h1>
@@ -128,7 +127,6 @@ export default function PrivacyPage() {
                 </p>
               </div>
             </section>
-          </div>
           </div>
         </Section>
       </ScreenContainer>
