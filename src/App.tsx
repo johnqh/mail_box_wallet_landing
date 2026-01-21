@@ -1,19 +1,23 @@
-import { Suspense } from 'react';
+import { Suspense, type ReactNode } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
-import { useLanguage } from './context/LanguageContext';
+import { SudobilityApp } from '@sudobility/building_blocks';
+import { initializeNetworkService } from '@sudobility/di';
+import { useLanguage, LanguageProvider } from './context/LanguageContext';
 import { SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE } from './constants/languages';
 import LandingPage from './pages/LandingPage';
 import PrivacyPage from './pages/PrivacyPage';
 import TermsPage from './pages/TermsPage';
+import i18n from './i18n';
+
+// Initialize network service before app renders
+initializeNetworkService();
 
 // Loading fallback
 function LoadingFallback() {
-  const { t } = useTranslation('common');
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-900">
       <div className="animate-pulse text-gray-600 dark:text-gray-400">
-        {t('loading', 'Loading...')}
+        Loading...
       </div>
     </div>
   );
@@ -37,7 +41,12 @@ function LanguageRoutes() {
   );
 }
 
-function App() {
+// App-specific providers
+function AppProviders({ children }: { children: ReactNode }) {
+  return <LanguageProvider>{children}</LanguageProvider>;
+}
+
+function AppRoutes() {
   return (
     <Suspense fallback={<LoadingFallback />}>
       <Routes>
@@ -53,6 +62,18 @@ function App() {
         <Route path="*" element={<Navigate to={`/${DEFAULT_LANGUAGE}`} replace />} />
       </Routes>
     </Suspense>
+  );
+}
+
+function App() {
+  return (
+    <SudobilityApp
+      i18n={i18n}
+      AppProviders={AppProviders}
+      storageKeyPrefix="mailbox-wallet"
+    >
+      <AppRoutes />
+    </SudobilityApp>
   );
 }
 

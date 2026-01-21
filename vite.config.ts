@@ -9,6 +9,10 @@ export default defineConfig({
       // Stub out optional peer dependencies from @sudobility/building_blocks
       'firebase/auth': resolve(__dirname, 'src/stubs/firebase-auth.ts'),
       '@sudobility/subscription-components': resolve(__dirname, 'src/stubs/subscription-components.ts'),
+      // Stub out transitive dependencies not used by this landing page
+      '@sudobility/devops-components': resolve(__dirname, 'src/stubs/devops-components.ts'),
+      '@sudobility/di_web': resolve(__dirname, 'src/stubs/di_web.ts'),
+      '@sudobility/auth_lib': resolve(__dirname, 'src/stubs/auth_lib.ts'),
     },
   },
   build: {

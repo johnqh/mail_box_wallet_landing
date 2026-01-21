@@ -3,8 +3,8 @@ import { useTranslation } from 'react-i18next';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { SunIcon, MoonIcon } from '@heroicons/react/24/outline';
 import { AppTopBar, type MenuItemConfig } from '@sudobility/building_blocks';
+import { useTheme, Theme } from '@sudobility/components';
 import LocalizedLink from './LocalizedLink';
-import { useTheme } from '../context/ThemeContext';
 import { useLanguage } from '../context/LanguageContext';
 import { addLanguageToPath, removeLanguageFromPath } from '../utils/languageRouting';
 import type { SupportedLanguage } from '../constants/languages';
@@ -25,13 +25,15 @@ const LocalizedLinkWrapper: FC<{
 
 export default function TopBar() {
   const { t } = useTranslation('common');
-  const { resolvedTheme, setTheme } = useTheme();
+  const { theme, setTheme } = useTheme();
   const { language, languages } = useLanguage();
   const navigate = useNavigate();
   const location = useLocation();
 
+  const isDark = theme === Theme.DARK;
+
   const toggleTheme = () => {
-    setTheme(resolvedTheme === 'dark' ? 'light' : 'dark');
+    setTheme(isDark ? Theme.LIGHT : Theme.DARK);
   };
 
   // Handle language change with URL routing
@@ -61,12 +63,12 @@ export default function TopBar() {
       onClick={toggleTheme}
       className="p-2 rounded-lg text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
       aria-label={
-        resolvedTheme === 'dark'
+        isDark
           ? t('theme.switchToLight', 'Switch to light mode')
           : t('theme.switchToDark', 'Switch to dark mode')
       }
     >
-      {resolvedTheme === 'dark' ? (
+      {isDark ? (
         <SunIcon className="h-5 w-5" />
       ) : (
         <MoonIcon className="h-5 w-5" />
