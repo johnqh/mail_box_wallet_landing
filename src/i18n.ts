@@ -19,7 +19,6 @@ i18n
     initImmediate: false,
     supportedLngs: [...SUPPORTED_LANGUAGES],
     debug: false,
-    nonExplicitSupportedLngs: true,
 
     interpolation: {
       escapeValue: false,
@@ -36,10 +35,11 @@ i18n
       lookupFromPathIndex: 0,
     },
 
-    load: 'languageOnly',
+    load: 'currentOnly', // Only load the exact language (keeps zh-hant separate from zh)
     preload: [],
     cleanCode: false,
-    lowerCaseLng: false,
+    lowerCaseLng: true, // Normalize zh-Hant to zh-hant
+    nonExplicitSupportedLngs: false, // Only use explicitly listed languages
 
     defaultNS: 'common',
     ns: ['common', 'landingPage'],
