@@ -3,7 +3,7 @@
  * @description Single entry point for all DI singletons and service initializations
  */
 
-import { initializeFirebaseService } from "@sudobility/di";
+import { initializeFirebaseService } from "@sudobility/di_web";
 
 /**
  * Initialize all app services and singletons.

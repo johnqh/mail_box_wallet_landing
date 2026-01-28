@@ -7,7 +7,7 @@
  * Usage: analyticsService.trackPageView('/about', 'About Page')
  */
 
-import { getFirebaseService } from "@sudobility/di";
+import { getFirebaseService } from "@sudobility/di_web";
 
 export interface AnalyticsEventParams {
   [key: string]: unknown;
