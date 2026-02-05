@@ -1,7 +1,7 @@
 {
   "name": "mail-box-wallet-landing",
   "private": true,
-  "version": "1.0.49",
+  "version": "1.0.50",
   "type": "module",
   "scripts": {
     "dev": "vite --port 5177",
@@ -11,6 +11,7 @@
     "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json,css,md}\" \"public/**/*.{json,html}\"",
     "format:check": "prettier --check \"src/**/*.{ts,tsx,js,jsx,json,css,md}\" \"public/**/*.{json,html}\"",
     "localize": "node ../workflows/scripts/localize.cjs ./public/locales && prettier . --write",
+    "localized": "node scripts/localization_verify.cjs",
     "preview": "vite preview --port 5177"
   },
   "dependencies": {
