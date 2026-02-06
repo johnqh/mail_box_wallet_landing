@@ -1,9 +1,10 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import { serviceWorkerPlugin } from '@sudobility/di_web/vite';
 import { resolve } from 'path';
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), serviceWorkerPlugin()],
   resolve: {
     alias: {
       // Stub out optional peer dependencies from @sudobility/building_blocks

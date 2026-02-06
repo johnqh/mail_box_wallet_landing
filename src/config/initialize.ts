@@ -3,7 +3,7 @@
  * @description Single entry point for all DI singletons and service initializations
  */
 
-import { initializeFirebaseService } from "@sudobility/di_web";
+import { initializeFirebaseService, registerServiceWorker } from "@sudobility/di_web";
 
 /**
  * Initialize all app services and singletons.
@@ -25,5 +25,8 @@ export function initializeApp(): void {
     measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
   });
 
-  // 2. i18n is initialized via import in main.tsx
+  // 2. Register service worker
+  registerServiceWorker();
+
+  // 3. i18n is initialized via import in main.tsx
 }
