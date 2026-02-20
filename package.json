@@ -1,7 +1,7 @@
 {
   "name": "mail-box-wallet-landing",
   "private": true,
-  "version": "1.0.61",
+  "version": "1.0.62",
   "type": "module",
   "scripts": {
     "dev": "vite --port 5177",
@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
-    "@sudobility/building_blocks": "^0.0.125",
+    "@sudobility/building_blocks": "^0.0.126",
     "@sudobility/components": "^5.0.10",
     "@sudobility/design": "^1.1.18",
     "@sudobility/di": "^1.5.35",
