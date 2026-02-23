@@ -100,7 +100,7 @@ bun run lint               # Run ESLint (zero warnings threshold)
 bun run lint:fix           # Auto-fix ESLint issues
 bun run format             # Format with Prettier
 bun run format:check       # Check formatting without writing
-bun run localize           # Generate translations (uses ../workflows/scripts/localize.cjs)
+bun run localize           # Generate translations (fetches localize.cjs from github.com/johnqh/workflows)
 bun run localized          # Verify all locale files have complete keys vs English
 ```
 
