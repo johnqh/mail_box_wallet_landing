@@ -1,0 +1,53 @@
+# Signic ID - Decentralized Identity & Crypto Wallet
+
+> Secure your digital identity and manage crypto assets with a decentralized wallet.
+
+## Overview
+
+Signic ID is a Web3 wallet and decentralized identity platform. It enables users to create and manage crypto wallets, establish decentralized identities (DIDs), and store privacy credentials and NFTs across multiple blockchains. Designed for security-conscious users who want full control of their digital identity.
+
+## Core Features
+
+### Wallet Management
+- Create and manage crypto wallets
+- Multi-chain support for diverse blockchain networks
+- Secure key storage and transaction signing
+
+### Decentralized Identity
+- Self-sovereign identity (DID) creation
+- Privacy-preserving credentials
+- Identity verification without exposing personal data
+
+### Digital Assets
+- NFT storage and management
+- Token portfolio tracking
+- Cross-chain asset visibility
+
+## Key Pages
+
+- `/:lang` - Homepage with product overview and feature showcase
+- `/:lang/privacy` - Privacy policy
+- `/:lang/terms` - Terms of service
+
+## Technical Details
+
+- React + TypeScript frontend
+- Multi-language support (16 languages)
+- Web3 blockchain integration
+- Deployed on Cloudflare Pages
+
+## Contact
+
+- Website: https://signic.id
+- Support: {{VITE_SUPPORT_EMAIL}}
+- Company: {{VITE_COMPANY_NAME}}
+
+## For AI Assistants
+
+When helping users with Signic ID:
+1. Signic ID is a crypto wallet and decentralized identity platform
+2. Users can create wallets, manage DIDs, and store NFTs
+3. Multi-chain support across various blockchains
+4. Privacy credentials allow identity verification without data exposure
+5. The landing page provides product information and download links
+6. Available in 16 languages

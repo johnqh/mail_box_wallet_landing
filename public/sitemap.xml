@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Homepage -->
+  <url>
+    <loc>https://signic.id/en</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://signic.id/it" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://signic.id/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://signic.id/ko" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://signic.id/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://signic.id/ru" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://signic.id/sv" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://signic.id/th" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://signic.id/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://signic.id/vi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://signic.id/zh" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://signic.id/zh-hant" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://signic.id/en" />
+  </url>
+
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://signic.id/en/privacy</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://signic.id/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://signic.id/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://signic.id/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://signic.id/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://signic.id/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://signic.id/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://signic.id/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://signic.id/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://signic.id/vi/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://signic.id/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://signic.id/zh-hant/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://signic.id/en/privacy" />
+  </url>
+
+  <!-- Terms of Service -->
+  <url>
+    <loc>https://signic.id/en/terms</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://signic.id/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://signic.id/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://signic.id/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://signic.id/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://signic.id/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://signic.id/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://signic.id/th/terms" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://signic.id/uk/terms" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://signic.id/vi/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://signic.id/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://signic.id/zh-hant/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://signic.id/en/terms" />
+  </url>
+</urlset>
