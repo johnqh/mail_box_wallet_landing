@@ -22,7 +22,7 @@ export default defineConfig({
     cssCodeSplit: true,
     cssMinify: true,
     sourcemap: false,
-    chunkSizeWarningLimit: 600,
+    chunkSizeWarningLimit: 1000,
   },
   esbuild: {
     drop: ['console', 'debugger'],
