@@ -4,7 +4,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://signic.id/en</loc>
-    <lastmod>2026-03-17</lastmod>
+    <lastmod>2026-03-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en" />
@@ -29,7 +29,7 @@
   <!-- Privacy Policy -->
   <url>
     <loc>https://signic.id/en/privacy</loc>
-    <lastmod>2026-03-17</lastmod>
+    <lastmod>2026-03-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/privacy" />
@@ -54,7 +54,7 @@
   <!-- Terms of Service -->
   <url>
     <loc>https://signic.id/en/terms</loc>
-    <lastmod>2026-03-17</lastmod>
+    <lastmod>2026-03-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/terms" />
