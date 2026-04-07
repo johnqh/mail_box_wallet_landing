@@ -1,7 +1,7 @@
 {
   "name": "mail-box-wallet-landing",
   "private": true,
-  "version": "1.0.106",
+  "version": "1.0.107",
   "type": "module",
   "scripts": {
     "process:static": "curl -sL https://raw.githubusercontent.com/johnqh/workflows/main/scripts/process-static-files.ts -o /tmp/process-static-files.ts && bunx tsx /tmp/process-static-files.ts",
@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
-    "@sudobility/building_blocks": "^0.0.195",
+    "@sudobility/building_blocks": "^0.0.196",
     "@sudobility/components": "^5.0.43",
     "@sudobility/design": "^1.1.25",
     "@sudobility/di": "^1.5.52",
