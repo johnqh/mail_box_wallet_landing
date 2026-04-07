@@ -56,9 +56,7 @@ export default function Footer({ variant = 'compact' }: FooterProps) {
   const linkSections: FooterLinkSection[] = [
     {
       title: t('footer.product', 'Product'),
-      links: [
-        { label: t('appName', APP_NAME), href: '/' },
-      ],
+      links: [{ label: t('appName', APP_NAME), href: '/' }],
     },
     {
       title: t('footer.legal', 'Legal'),

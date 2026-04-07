@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import ScreenContainer from '../components/ScreenContainer';
 import SEOHead from '../components/SEOHead';
 import HeroSection from '../sections/HeroSection';
 import FeaturesSection from '../sections/FeaturesSection';
@@ -30,15 +29,13 @@ export default function LandingPage() {
           'self-sovereign identity',
         ]}
       />
-      <ScreenContainer>
-        <main>
-          <HeroSection />
-          <FeaturesSection />
-          <HowItWorksSection />
-          <FAQSection />
-          <CTASection />
-        </main>
-      </ScreenContainer>
+      <main>
+        <HeroSection />
+        <FeaturesSection />
+        <HowItWorksSection />
+        <FAQSection />
+        <CTASection />
+      </main>
     </>
   );
 }

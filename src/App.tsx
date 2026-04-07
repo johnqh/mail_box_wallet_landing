@@ -1,9 +1,10 @@
 import { Suspense, type ReactNode } from 'react';
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route, Navigate, Outlet } from 'react-router-dom';
 import { SudobilityApp } from '@sudobility/building_blocks';
 import { initializeNetworkService } from '@sudobility/di';
 import { useLanguage, LanguageProvider } from './context/LanguageContext';
 import { SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE } from './constants/languages';
+import ScreenContainer from './components/ScreenContainer';
 import LandingPage from './pages/LandingPage';
 import PrivacyPage from './pages/PrivacyPage';
 import TermsPage from './pages/TermsPage';
@@ -16,9 +17,7 @@ initializeNetworkService();
 function LoadingFallback() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-900">
-      <div className="animate-pulse text-gray-600 dark:text-gray-400">
-        Loading...
-      </div>
+      <div className="animate-pulse text-gray-600 dark:text-gray-400">Loading...</div>
     </div>
   );
 }
@@ -29,15 +28,18 @@ function LanguageRedirect() {
   return <Navigate to={`/${language}`} replace />;
 }
 
-// Routes for each language
-function LanguageRoutes() {
+/**
+ * Route-level layout wrapping all pages in ScreenContainer.
+ * ScreenContainer provides PageConfigProvider so child pages
+ * can use useSetPageConfig for layout overrides.
+ */
+function ScreenContainerLayout() {
   return (
-    <Routes>
-      <Route index element={<LandingPage />} />
-      <Route path="privacy" element={<PrivacyPage />} />
-      <Route path="terms" element={<TermsPage />} />
-      <Route path="*" element={<LandingPage />} />
-    </Routes>
+    <ScreenContainer>
+      <Suspense fallback={<LoadingFallback />}>
+        <Outlet />
+      </Suspense>
+    </ScreenContainer>
   );
 }
 
@@ -55,7 +57,12 @@ function AppRoutes() {
 
         {/* Language-prefixed routes */}
         {SUPPORTED_LANGUAGES.map(lang => (
-          <Route key={lang} path={`/${lang}/*`} element={<LanguageRoutes />} />
+          <Route key={lang} path={`/${lang}`} element={<ScreenContainerLayout />}>
+            <Route index element={<LandingPage />} />
+            <Route path="privacy" element={<PrivacyPage />} />
+            <Route path="terms" element={<TermsPage />} />
+            <Route path="*" element={<LandingPage />} />
+          </Route>
         ))}
 
         {/* Fallback - redirect unknown routes to default language */}
@@ -67,11 +74,7 @@ function AppRoutes() {
 
 function App() {
   return (
-    <SudobilityApp
-      i18n={i18n}
-      AppProviders={AppProviders}
-      storageKeyPrefix="mailbox-wallet"
-    >
+    <SudobilityApp i18n={i18n} AppProviders={AppProviders} storageKeyPrefix="mailbox-wallet">
       <AppRoutes />
     </SudobilityApp>
   );

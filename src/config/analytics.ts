@@ -7,7 +7,7 @@
  * Usage: analyticsService.trackPageView('/about', 'About Page')
  */
 
-import { getFirebaseService } from "@sudobility/di_web";
+import { getFirebaseService } from '@sudobility/di_web';
 
 export interface AnalyticsEventParams {
   [key: string]: unknown;
@@ -38,7 +38,7 @@ export const analyticsService = {
    * Track a page view
    */
   trackPageView(pagePath: string, pageTitle?: string): void {
-    this.trackEvent("page_view", {
+    this.trackEvent('page_view', {
       page_path: pagePath,
       page_title: pageTitle,
     });
@@ -48,7 +48,7 @@ export const analyticsService = {
    * Track a button click
    */
   trackButtonClick(buttonName: string, params?: AnalyticsEventParams): void {
-    this.trackEvent("button_click", {
+    this.trackEvent('button_click', {
       button_name: buttonName,
       ...params,
     });
@@ -57,12 +57,8 @@ export const analyticsService = {
   /**
    * Track a link click
    */
-  trackLinkClick(
-    linkUrl: string,
-    linkText?: string,
-    params?: AnalyticsEventParams
-  ): void {
-    this.trackEvent("link_click", {
+  trackLinkClick(linkUrl: string, linkText?: string, params?: AnalyticsEventParams): void {
+    this.trackEvent('link_click', {
       link_url: linkUrl,
       link_text: linkText,
       ...params,

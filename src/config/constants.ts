@@ -26,7 +26,7 @@ export const getConstants = (appName: string, appDomain: string, companyName: st
 export const CONSTANTS = getConstants(
   import.meta.env.VITE_APP_NAME || 'Signic ID',
   import.meta.env.VITE_APP_DOMAIN || 'signic.id',
-  import.meta.env.VITE_COMPANY_NAME || 'Sudobility',
+  import.meta.env.VITE_COMPANY_NAME || 'Sudobility'
 );
 
 // Re-export individual constants for convenience

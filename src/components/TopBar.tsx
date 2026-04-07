@@ -68,11 +68,7 @@ export default function TopBar() {
           : t('theme.switchToDark', 'Switch to dark mode')
       }
     >
-      {isDark ? (
-        <SunIcon className="h-5 w-5" />
-      ) : (
-        <MoonIcon className="h-5 w-5" />
-      )}
+      {isDark ? <SunIcon className="h-5 w-5" /> : <MoonIcon className="h-5 w-5" />}
     </button>
   );
 
