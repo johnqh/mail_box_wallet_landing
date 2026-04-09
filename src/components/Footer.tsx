@@ -80,7 +80,6 @@ export default function Footer({ variant = 'compact' }: FooterProps) {
         'Secure crypto wallet and decentralized identity solution.'
       )}
       LinkComponent={LinkWrapper}
-      gridColumns={2}
     />
   );
 }
