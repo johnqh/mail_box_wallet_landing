@@ -21,11 +21,11 @@ The landing page is a standalone static site. It renders at `/:lang` with langua
 
 ### Pages
 
-| Route | Description |
-|-------|-------------|
-| `/:lang` | Main landing page (Hero, Features, HowItWorks, FAQ, CTA) |
-| `/:lang/privacy` | Privacy policy |
-| `/:lang/terms` | Terms of service |
+| Route            | Description                                              |
+| ---------------- | -------------------------------------------------------- |
+| `/:lang`         | Main landing page (Hero, Features, HowItWorks, FAQ, CTA) |
+| `/:lang/privacy` | Privacy policy                                           |
+| `/:lang/terms`   | Terms of service                                         |
 
 ### Sections
 
@@ -42,12 +42,12 @@ HeroSection, FeaturesSection (6 feature cards), HowItWorksSection (4 steps), FAQ
 
 ### Environment Variables
 
-| Variable | Purpose |
-|----------|---------|
-| `VITE_APP_NAME` | Display name (default: Signic ID) |
+| Variable          | Purpose                             |
+| ----------------- | ----------------------------------- |
+| `VITE_APP_NAME`   | Display name (default: Signic ID)   |
 | `VITE_APP_DOMAIN` | Primary domain (default: signic.id) |
-| `VITE_CTA_URL` | Target URL for CTA buttons |
-| `VITE_FIREBASE_*` | Firebase config for analytics |
+| `VITE_CTA_URL`    | Target URL for CTA buttons          |
+| `VITE_FIREBASE_*` | Firebase config for analytics       |
 
 ## Related Packages
 

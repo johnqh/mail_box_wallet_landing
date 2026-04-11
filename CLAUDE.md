@@ -62,32 +62,32 @@ scripts/
 
 ### Pages (routes)
 
-| Route pattern        | Component      | Description                         |
-|----------------------|----------------|-------------------------------------|
-| `/`                  | (redirect)     | Redirects to `/{detected-language}` |
-| `/:lang`             | `LandingPage`  | Main landing page                   |
-| `/:lang/privacy`     | `PrivacyPage`  | Privacy policy                      |
-| `/:lang/terms`       | `TermsPage`    | Terms of service                    |
+| Route pattern    | Component     | Description                         |
+| ---------------- | ------------- | ----------------------------------- |
+| `/`              | (redirect)    | Redirects to `/{detected-language}` |
+| `/:lang`         | `LandingPage` | Main landing page                   |
+| `/:lang/privacy` | `PrivacyPage` | Privacy policy                      |
+| `/:lang/terms`   | `TermsPage`   | Terms of service                    |
 
 ### Shared Components
 
-| Component          | Purpose                                                        |
-|--------------------|----------------------------------------------------------------|
-| `ScreenContainer`  | Full-page shell wrapping TopBar + content + Footer             |
-| `TopBar`           | Uses `AppTopBar` from `@sudobility/building_blocks`; language picker + theme toggle |
-| `Footer`           | Social links (Twitter, Discord, LinkedIn, GitHub, Telegram), legal links |
-| `LocalizedLink`    | Wraps React Router `<Link>` to auto-prefix the current language |
-| `SEOHead`          | Uses `react-helmet-async` for `<title>`, OG tags, Twitter card |
+| Component         | Purpose                                                                             |
+| ----------------- | ----------------------------------------------------------------------------------- |
+| `ScreenContainer` | Full-page shell wrapping TopBar + content + Footer                                  |
+| `TopBar`          | Uses `AppTopBar` from `@sudobility/building_blocks`; language picker + theme toggle |
+| `Footer`          | Social links (Twitter, Discord, LinkedIn, GitHub, Telegram), legal links            |
+| `LocalizedLink`   | Wraps React Router `<Link>` to auto-prefix the current language                     |
+| `SEOHead`         | Uses `react-helmet-async` for `<title>`, OG tags, Twitter card                      |
 
 ### Landing Page Sections (in order)
 
-| Section              | Translation namespace key | Description                       |
-|----------------------|---------------------------|-----------------------------------|
-| `HeroSection`        | `hero.*`                  | Main banner, CTA, trust indicators |
-| `FeaturesSection`    | `features.*`              | 6 feature cards in a grid          |
-| `HowItWorksSection`  | `howItWorks.*`            | 4-step numbered flow               |
-| `FAQSection`         | `faq.*`                   | Collapsible accordion (5 items)    |
-| `CTASection`         | `cta.*`                   | Bottom CTA with gradient           |
+| Section             | Translation namespace key | Description                        |
+| ------------------- | ------------------------- | ---------------------------------- |
+| `HeroSection`       | `hero.*`                  | Main banner, CTA, trust indicators |
+| `FeaturesSection`   | `features.*`              | 6 feature cards in a grid          |
+| `HowItWorksSection` | `howItWorks.*`            | 4-step numbered flow               |
+| `FAQSection`        | `faq.*`                   | Collapsible accordion (5 items)    |
+| `CTASection`        | `cta.*`                   | Bottom CTA with gradient           |
 
 ## Development Commands
 
@@ -143,7 +143,7 @@ Several `@sudobility/*` packages are transitive dependencies of `@sudobility/bui
 ### Environment Variables
 
 | Variable                            | Purpose                                  |
-|-------------------------------------|------------------------------------------|
+| ----------------------------------- | ---------------------------------------- |
 | `VITE_APP_NAME`                     | Display name (default: `Signic ID`)      |
 | `VITE_APP_DOMAIN`                   | Primary domain (default: `signic.id`)    |
 | `VITE_CTA_URL`                      | Target URL for "Get Started" CTA buttons |
@@ -152,8 +152,8 @@ Several `@sudobility/*` packages are transitive dependencies of `@sudobility/bui
 | `VITE_FIREBASE_PROJECT_ID`          | Firebase config                          |
 | `VITE_FIREBASE_STORAGE_BUCKET`      | Firebase config                          |
 | `VITE_FIREBASE_MESSAGING_SENDER_ID` | Firebase config                          |
-| `VITE_FIREBASE_APP_ID`             | Firebase config                          |
-| `VITE_FIREBASE_MEASUREMENT_ID`     | Firebase config (GA measurement ID)      |
+| `VITE_FIREBASE_APP_ID`              | Firebase config                          |
+| `VITE_FIREBASE_MEASUREMENT_ID`      | Firebase config (GA measurement ID)      |
 
 ## Common Tasks
 
@@ -193,25 +193,25 @@ Several `@sudobility/*` packages are transitive dependencies of `@sudobility/bui
 
 ## Peer / Key Dependencies
 
-| Package                              | Role                                           |
-|--------------------------------------|-------------------------------------------------|
-| `react` / `react-dom` (^19.2)       | UI framework                                   |
-| `react-router-dom` (^7.9)           | Client-side routing with language-prefixed URLs |
-| `i18next` / `react-i18next`         | Internationalization (16 languages)            |
-| `i18next-http-backend`              | Loads translation JSON files from `/locales/`  |
-| `i18next-browser-languagedetector`  | Detects user language from path/localStorage/navigator |
-| `@sudobility/building_blocks`       | Shared app shell (`SudobilityApp`, `AppTopBar`) |
-| `@sudobility/components`            | UI components (`Section`, `useTheme`, `Theme`)  |
-| `@sudobility/design`                | Design tokens consumed by Tailwind              |
-| `@sudobility/di`                    | Dependency injection (`initializeNetworkService`) |
-| `@sudobility/di_web`                | Firebase DI service + service worker (stubbed)  |
-| `@sudobility/types`                 | Shared TypeScript types                         |
-| `@sudobility/subscription_lib`      | Subscription types (transitive dependency)      |
-| `@heroicons/react`                  | SVG icons (Sun, Moon, Sparkles, Chevron, etc.)  |
-| `react-helmet-async`                | Document head management for SEO                |
-| `class-variance-authority` / `clsx` / `tailwind-merge` | Utility-first CSS class composition |
-| `firebase`                           | Analytics SDK (stubbed for landing page)        |
-| `tailwindcss` (^3.4)                | Utility-first CSS framework                    |
-| `vite` (^7.1)                        | Build tool and dev server                       |
-| `typescript` (^5.9)                  | Type checking (strict mode, no unused locals)   |
-| `eslint` (^9.37) + `prettier` (^3.7) | Linting and formatting                         |
+| Package                                                | Role                                                   |
+| ------------------------------------------------------ | ------------------------------------------------------ |
+| `react` / `react-dom` (^19.2)                          | UI framework                                           |
+| `react-router-dom` (^7.9)                              | Client-side routing with language-prefixed URLs        |
+| `i18next` / `react-i18next`                            | Internationalization (16 languages)                    |
+| `i18next-http-backend`                                 | Loads translation JSON files from `/locales/`          |
+| `i18next-browser-languagedetector`                     | Detects user language from path/localStorage/navigator |
+| `@sudobility/building_blocks`                          | Shared app shell (`SudobilityApp`, `AppTopBar`)        |
+| `@sudobility/components`                               | UI components (`Section`, `useTheme`, `Theme`)         |
+| `@sudobility/design`                                   | Design tokens consumed by Tailwind                     |
+| `@sudobility/di`                                       | Dependency injection (`initializeNetworkService`)      |
+| `@sudobility/di_web`                                   | Firebase DI service + service worker (stubbed)         |
+| `@sudobility/types`                                    | Shared TypeScript types                                |
+| `@sudobility/subscription_lib`                         | Subscription types (transitive dependency)             |
+| `@heroicons/react`                                     | SVG icons (Sun, Moon, Sparkles, Chevron, etc.)         |
+| `react-helmet-async`                                   | Document head management for SEO                       |
+| `class-variance-authority` / `clsx` / `tailwind-merge` | Utility-first CSS class composition                    |
+| `firebase`                                             | Analytics SDK (stubbed for landing page)               |
+| `tailwindcss` (^3.4)                                   | Utility-first CSS framework                            |
+| `vite` (^7.1)                                          | Build tool and dev server                              |
+| `typescript` (^5.9)                                    | Type checking (strict mode, no unused locals)          |
+| `eslint` (^9.37) + `prettier` (^3.7)                   | Linting and formatting                                 |

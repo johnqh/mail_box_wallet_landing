@@ -1,7 +1,7 @@
 {
   "name": "mail-box-wallet-landing",
   "private": true,
-  "version": "1.0.118",
+  "version": "1.0.119",
   "type": "module",
   "scripts": {
     "process:static": "curl -sL https://raw.githubusercontent.com/johnqh/workflows/main/scripts/process-static-files.ts -o /tmp/process-static-files.ts && bunx tsx /tmp/process-static-files.ts",
@@ -11,7 +11,7 @@
     "lint:fix": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0 --fix",
     "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json,css,md}\" \"public/**/*.{json,html}\"",
     "format:check": "prettier --check \"src/**/*.{ts,tsx,js,jsx,json,css,md}\" \"public/**/*.{json,html}\"",
-    "localize": "curl -fsSL https://raw.githubusercontent.com/johnqh/workflows/main/scripts/localize.cjs -o /tmp/localize.cjs && node /tmp/localize.cjs ./public/locales && prettier . --write",
+    "localize": "SCRIPT=$(mktemp) && curl -fsSL https://raw.githubusercontent.com/johnqh/workflows/main/scripts/localize_batch.cjs -o $SCRIPT && node $SCRIPT ./public/locales https://api.whisperly.dev/api/v1/translate/jie9cytr/signic --word-limit 40 && rm -f $SCRIPT && prettier . --write",
     "localized": "node scripts/localization_verify.cjs",
     "preview": "vite preview --port 5177"
   },
