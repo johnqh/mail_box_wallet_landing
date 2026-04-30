@@ -6,19 +6,13 @@ import { APP_NAME, CONSTANTS } from '../config/constants';
 export default function PrivacyPage() {
   const { t } = useTranslation('common');
 
+  const seoTitle = t('privacy.seoTitle', { appName: APP_NAME });
+  const seoDescription = t('privacy.seoDescription', { appName: APP_NAME });
+  const seoKeywords = t('privacy.seoKeywords', { returnObjects: true }) as string[];
+
   return (
     <>
-      <SEOHead
-        title={t('privacy.seoTitle', {
-          appName: APP_NAME,
-          defaultValue: `Privacy Policy - ${APP_NAME}`,
-        })}
-        description={t('privacy.seoDescription', {
-          appName: APP_NAME,
-          defaultValue: `Privacy policy for ${APP_NAME}. Learn how we protect your data and respect your privacy.`,
-        })}
-        keywords={['privacy policy', 'data protection', 'GDPR', 'crypto wallet privacy']}
-      />
+      <SEOHead title={seoTitle} description={seoDescription} keywords={seoKeywords} />
       <Section as="main" spacing="2xl" maxWidth="4xl">
         <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-8">
           {t('privacy.title', 'Privacy Policy')}

@@ -1,7 +1,17 @@
 {
   "seo": {
     "title": "Signic ID - Personal ID with Crypto Technologies",
-    "description": "Secure crypto wallet and decentralized identity solution. Own your digital identity, manage assets across chains, and authenticate across Web3 seamlessly."
+    "description": "Secure crypto wallet and decentralized identity solution. Own your digital identity, manage assets across chains, and authenticate across Web3 seamlessly.",
+    "keywords": [
+      "crypto wallet",
+      "decentralized identity",
+      "DID",
+      "Web3",
+      "blockchain",
+      "ENS",
+      "SNS",
+      "self-sovereign identity"
+    ]
   },
   "hero": {
     "badge": "Your Identity, Your Control",

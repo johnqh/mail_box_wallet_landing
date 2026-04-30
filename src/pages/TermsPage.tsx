@@ -6,24 +6,13 @@ import { APP_NAME, CONSTANTS } from '../config/constants';
 export default function TermsPage() {
   const { t } = useTranslation('common');
 
+  const seoTitle = t('terms.seoTitle', { appName: APP_NAME });
+  const seoDescription = t('terms.seoDescription', { appName: APP_NAME });
+  const seoKeywords = t('terms.seoKeywords', { returnObjects: true }) as string[];
+
   return (
     <>
-      <SEOHead
-        title={t('terms.seoTitle', {
-          appName: APP_NAME,
-          defaultValue: `Terms of Service - ${APP_NAME}`,
-        })}
-        description={t('terms.seoDescription', {
-          appName: APP_NAME,
-          defaultValue: `Terms of service for ${APP_NAME}. Read our terms and conditions for using our crypto wallet service.`,
-        })}
-        keywords={[
-          'terms of service',
-          'terms and conditions',
-          'crypto wallet terms',
-          'user agreement',
-        ]}
-      />
+      <SEOHead title={seoTitle} description={seoDescription} keywords={seoKeywords} />
       <Section as="main" spacing="2xl" maxWidth="4xl">
         <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-8">
           {t('terms.title', 'Terms of Service')}

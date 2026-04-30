@@ -42,7 +42,7 @@ i18n
     nonExplicitSupportedLngs: false, // Only use explicitly listed languages
 
     defaultNS: 'common',
-    ns: ['common', 'landingPage'],
+    ns: ['common', 'landingPage', 'howto'],
   });
 
 export default i18n;

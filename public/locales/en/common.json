@@ -14,6 +14,7 @@
   "privacy": {
     "seoTitle": "Privacy Policy - {{appName}}",
     "seoDescription": "Privacy policy for {{appName}}. Learn how we protect your data and respect your privacy.",
+    "seoKeywords": ["privacy policy", "data protection", "crypto wallet privacy", "decentralized identity privacy"],
     "title": "Privacy Policy",
     "lastUpdated": "Last updated",
     "introduction": {
@@ -55,6 +56,7 @@
   "terms": {
     "seoTitle": "Terms of Service - {{appName}}",
     "seoDescription": "Terms of service for {{appName}}. Read our terms and conditions for using our crypto wallet service.",
+    "seoKeywords": ["terms of service", "crypto wallet terms", "user agreement", "decentralized identity terms"],
     "title": "Terms of Service",
     "lastUpdated": "Last updated",
     "acceptance": {

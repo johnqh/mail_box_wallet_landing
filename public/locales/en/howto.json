@@ -1,0 +1,35 @@
+{
+  "webApp": {
+    "description": "Signic ID is a secure crypto wallet and decentralized identity solution. Own your digital identity, manage assets across chains, and authenticate across Web3.",
+    "features": [
+      "Secure crypto wallet",
+      "Decentralized identity (DID)",
+      "Multi-chain support",
+      "Name service integration (ENS, SNS)",
+      "Privacy-first design",
+      "Verifiable credentials"
+    ]
+  },
+  "home": {
+    "name": "How to Get Started with Signic ID",
+    "description": "Set up your decentralized identity and crypto wallet with Signic ID in a few simple steps.",
+    "steps": [
+      {
+        "name": "Create Your Wallet",
+        "text": "Download Signic ID and create a secure, non-custodial crypto wallet. Your private keys stay on your device."
+      },
+      {
+        "name": "Claim Your Digital Identity",
+        "text": "Register your decentralized identity (DID) on-chain. This identity is cryptographically verified and controlled entirely by you."
+      },
+      {
+        "name": "Add Name Services",
+        "text": "Link ENS, SNS, or other blockchain name services to your identity for a human-readable address across chains."
+      },
+      {
+        "name": "Authenticate Across Web3",
+        "text": "Use your Signic ID to log in to dApps, prove credentials, and manage assets seamlessly across multiple blockchains."
+      }
+    ]
+  }
+}

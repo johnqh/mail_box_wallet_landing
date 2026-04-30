@@ -1,33 +1,33 @@
 import { useTranslation } from 'react-i18next';
 import SEOHead from '../components/SEOHead';
+import { buildHowToSchema } from '../components/buildHowToSchema';
 import HeroSection from '../sections/HeroSection';
 import FeaturesSection from '../sections/FeaturesSection';
 import HowItWorksSection from '../sections/HowItWorksSection';
 import FAQSection from '../sections/FAQSection';
 import CTASection from '../sections/CTASection';
-import { APP_NAME } from '../config/constants';
 
 export default function LandingPage() {
   const { t } = useTranslation('landingPage');
+  const { t: tHowTo } = useTranslation('howto');
+
+  const seoTitle = t('seo.title');
+  const seoDescription = t('seo.description');
+  const seoKeywords = t('seo.keywords', { returnObjects: true }) as string[];
+
+  const howToSchema = buildHowToSchema(
+    tHowTo('home.name'),
+    tHowTo('home.description'),
+    tHowTo('home.steps', { returnObjects: true }) as { name: string; text: string }[]
+  );
 
   return (
     <>
       <SEOHead
-        title={t('seo.title', `${APP_NAME} - Personal ID with Crypto Technologies`)}
-        description={t(
-          'seo.description',
-          'Secure crypto wallet and decentralized identity solution. Own your digital identity, manage assets across chains, and authenticate across Web3 seamlessly.'
-        )}
-        keywords={[
-          'crypto wallet',
-          'decentralized identity',
-          'DID',
-          'Web3',
-          'blockchain',
-          'ENS',
-          'SNS',
-          'self-sovereign identity',
-        ]}
+        title={seoTitle}
+        description={seoDescription}
+        keywords={seoKeywords}
+        structuredData={howToSchema}
       />
       <main>
         <HeroSection />
