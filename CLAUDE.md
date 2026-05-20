@@ -28,6 +28,7 @@ src/
     analytics.ts                    # Analytics singleton using Firebase via DI
     constants.ts                    # Brand constants from VITE_APP_NAME / VITE_APP_DOMAIN env vars
     initialize.ts                   # App bootstrap: Firebase init, service worker registration
+seo.config.mjs                        # SEO route config for generate-seo-assets.mjs (per-route localized HTML, sitemap, robots)
   constants/
     languages.ts                    # SUPPORTED_LANGUAGES, names, flags, locale mappings, RTL list
   context/
