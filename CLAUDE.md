@@ -2,7 +2,7 @@
 
 ## Overview
 
-Landing page for the 0xMail / Signic ID product -- a crypto wallet and decentralized identity solution. Built as a React single-page application with full internationalization (16 languages), dark mode support, RTL language handling, and SEO metadata via `react-helmet-async`. Deployed to Cloudflare Pages as a static site.
+Landing page for the 0xMail / Signic ID product -- a crypto wallet and decentralized identity solution. Built as a React single-page application with full internationalization (15 languages), dark mode support, RTL language handling, and SEO metadata via `react-helmet-async`. Deployed to Cloudflare Pages as a static site.
 
 - **Package name**: `mail-box-wallet-landing`
 - **Version**: `1.0.63`
@@ -120,9 +120,8 @@ bun run localized          # Verify all locale files have complete keys vs Engli
 - Language is detected from: URL path > localStorage > browser navigator
 - `LanguageContext` provides `language`, `setLanguage`, `isRTL` to the entire app
 - i18next uses two namespaces: `common` (shared UI strings) and `landingPage` (page-specific)
-- 16 supported languages: en, ar, de, es, fr, it, ja, ko, pt, ru, sv, th, uk, vi, zh, zh-hant
-- Arabic (`ar`) has RTL support; the `dir` attribute is set on `<html>` automatically
-
+- 15 supported languages: en, de, es, fr, it, ja, ko, pt, ru, sv, th, uk, vi, zh, zh-hant
+-
 ### Dependency Stubbing
 
 Several `@sudobility/*` packages are transitive dependencies of `@sudobility/building_blocks` that are not needed by this landing page. Vite aliases in `vite.config.ts` redirect them to lightweight stubs in `src/stubs/` to avoid pulling in unused code (Firebase Auth, subscription components, devops components, di_web, auth_lib).
@@ -198,7 +197,7 @@ Several `@sudobility/*` packages are transitive dependencies of `@sudobility/bui
 | ------------------------------------------------------ | ------------------------------------------------------ |
 | `react` / `react-dom` (^19.2)                          | UI framework                                           |
 | `react-router-dom` (^7.9)                              | Client-side routing with language-prefixed URLs        |
-| `i18next` / `react-i18next`                            | Internationalization (16 languages)                    |
+| `i18next` / `react-i18next`                            | Internationalization (15 languages)                    |
 | `i18next-http-backend`                                 | Loads translation JSON files from `/locales/`          |
 | `i18next-browser-languagedetector`                     | Detects user language from path/localStorage/navigator |
 | `@sudobility/building_blocks`                          | Shared app shell (`SudobilityApp`, `AppTopBar`)        |

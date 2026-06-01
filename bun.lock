@@ -11,7 +11,7 @@
         "@sudobility/design": "^1.1.30",
         "@sudobility/di": "^1.5.56",
         "@sudobility/di_web": "^0.1.186",
-        "@sudobility/seo_lib": "^0.0.23",
+        "@sudobility/seo_lib": "^0.0.25",
         "@sudobility/subscription_lib": "^0.0.44",
         "@sudobility/types": "^1.9.62",
         "class-variance-authority": "^0.7.1",
@@ -440,7 +440,7 @@
 
     "@sudobility/di_web": ["@sudobility/di_web@0.1.186", "", { "peerDependencies": { "@sudobility/components": "^5.0.70", "@sudobility/di": "^1.5.56", "@sudobility/types": "^1.9.62", "react": "^18.0.0 || ^19.0.0", "vite": "^5.0.0 || ^6.0.0 || ^7.0.0" }, "optionalPeers": ["vite"] }, "sha512-JSKKvKHYAier1arSlkiwOhZ3TKBAMSZKySE3h9HoDkLuZlqY2yLsYy4vntKEuvISvyoWTa/zAW0WSnTq4k/uog=="],
 
-    "@sudobility/seo_lib": ["@sudobility/seo_lib@0.0.23", "", { "peerDependencies": { "i18next": ">=23.0.0", "react": "^18.0.0 || ^19.0.0", "react-dom": "^18.0.0 || ^19.0.0", "react-helmet-async": ">=2.0.0", "react-i18next": ">=14.0.0", "react-router-dom": ">=6.0.0" }, "optionalPeers": ["i18next", "react-i18next", "react-router-dom"] }, "sha512-HcVID1ruFkHivG5f039zQBNbMV2dBxzH2gkJL3zIWmn7EJFXkEoz1/audpFkR8tUavmux/cqd9VxE3cvvKyH7g=="],
+    "@sudobility/seo_lib": ["@sudobility/seo_lib@0.0.25", "", { "peerDependencies": { "i18next": ">=23.0.0", "react": "^18.0.0 || ^19.0.0", "react-dom": "^18.0.0 || ^19.0.0", "react-helmet-async": ">=2.0.0", "react-i18next": ">=14.0.0", "react-router-dom": ">=6.0.0" }, "optionalPeers": ["i18next", "react-i18next", "react-router-dom"] }, "sha512-yoxnkcy/Ld32Yb3cN+Cz76xDt5YLmxQ80rrkQUSw7TTVoVcQBwBedhZmmyONys+aNFY5QcmnFDPh3smlpWNRew=="],
 
     "@sudobility/subscription_lib": ["@sudobility/subscription_lib@0.0.44", "", { "peerDependencies": { "@revenuecat/purchases-js": "^1.0.0", "@sudobility/types": "^1.9.62", "@tanstack/react-query": "^5.0.0", "react": "^18.0.0 || ^19.0.0", "react-native-purchases": ">=7.0.0" }, "optionalPeers": ["@revenuecat/purchases-js", "@tanstack/react-query", "react-native-purchases"] }, "sha512-2bS5QjnYMg9Ehd/6RyfVoK0npOnXcTZ3oq1MGB7BmxismYVPb+jcyiewsh7fRwloLucWtNxrDNIZvjTz3JM4fw=="],
 

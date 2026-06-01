@@ -1,6 +1,5 @@
 export const SUPPORTED_LANGUAGES = [
   'en',
-  'ar',
   'de',
   'es',
   'fr',
@@ -21,11 +20,10 @@ export type SupportedLanguage = (typeof SUPPORTED_LANGUAGES)[number];
 
 export const DEFAULT_LANGUAGE: SupportedLanguage = 'en';
 
-export const RTL_LANGUAGES: SupportedLanguage[] = ['ar'];
+export const RTL_LANGUAGES: SupportedLanguage[] = [];
 
 export const LANGUAGE_NAMES: Record<SupportedLanguage, string> = {
   en: 'English',
-  ar: 'العربية',
   de: 'Deutsch',
   es: 'Español',
   fr: 'Français',
@@ -44,7 +42,6 @@ export const LANGUAGE_NAMES: Record<SupportedLanguage, string> = {
 
 export const LANGUAGE_FLAGS: Record<SupportedLanguage, string> = {
   en: '🇺🇸',
-  ar: '🇸🇦',
   de: '🇩🇪',
   es: '🇪🇸',
   fr: '🇫🇷',
@@ -63,7 +60,6 @@ export const LANGUAGE_FLAGS: Record<SupportedLanguage, string> = {
 
 export const LANGUAGE_TO_LOCALE: Record<SupportedLanguage, string> = {
   en: 'en-US',
-  ar: 'ar-SA',
   de: 'de-DE',
   es: 'es-ES',
   fr: 'fr-FR',

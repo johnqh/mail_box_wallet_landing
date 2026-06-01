@@ -4,34 +4,10 @@
 
   <url>
     <loc>https://signic.id/en</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://signic.id/it" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://signic.id/ja" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://signic.id/ko" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://signic.id/pt" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://signic.id/ru" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://signic.id/sv" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://signic.id/th" />
-    <xhtml:link rel="alternate" hreflang="uk" href="https://signic.id/uk" />
-    <xhtml:link rel="alternate" hreflang="vi" href="https://signic.id/vi" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://signic.id/zh" />
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://signic.id/zh-hant" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://signic.id/en" />
-  </url>
-  <url>
-    <loc>https://signic.id/ar</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr" />
@@ -50,11 +26,10 @@
   </url>
   <url>
     <loc>https://signic.id/de</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr" />
@@ -73,11 +48,10 @@
   </url>
   <url>
     <loc>https://signic.id/es</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr" />
@@ -96,11 +70,10 @@
   </url>
   <url>
     <loc>https://signic.id/fr</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr" />
@@ -119,11 +92,10 @@
   </url>
   <url>
     <loc>https://signic.id/it</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr" />
@@ -142,11 +114,10 @@
   </url>
   <url>
     <loc>https://signic.id/ja</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr" />
@@ -165,11 +136,10 @@
   </url>
   <url>
     <loc>https://signic.id/ko</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr" />
@@ -188,11 +158,10 @@
   </url>
   <url>
     <loc>https://signic.id/pt</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr" />
@@ -211,11 +180,10 @@
   </url>
   <url>
     <loc>https://signic.id/ru</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr" />
@@ -234,11 +202,10 @@
   </url>
   <url>
     <loc>https://signic.id/sv</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr" />
@@ -257,11 +224,10 @@
   </url>
   <url>
     <loc>https://signic.id/th</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr" />
@@ -280,11 +246,10 @@
   </url>
   <url>
     <loc>https://signic.id/uk</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr" />
@@ -303,11 +268,10 @@
   </url>
   <url>
     <loc>https://signic.id/vi</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr" />
@@ -326,11 +290,10 @@
   </url>
   <url>
     <loc>https://signic.id/zh</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr" />
@@ -349,11 +312,10 @@
   </url>
   <url>
     <loc>https://signic.id/zh-hant</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr" />
@@ -372,34 +334,10 @@
   </url>
   <url>
     <loc>https://signic.id/en/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/privacy" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/privacy" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/privacy" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/privacy" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://signic.id/it/privacy" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://signic.id/ja/privacy" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://signic.id/ko/privacy" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://signic.id/pt/privacy" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://signic.id/ru/privacy" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://signic.id/sv/privacy" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://signic.id/th/privacy" />
-    <xhtml:link rel="alternate" hreflang="uk" href="https://signic.id/uk/privacy" />
-    <xhtml:link rel="alternate" hreflang="vi" href="https://signic.id/vi/privacy" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://signic.id/zh/privacy" />
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://signic.id/zh-hant/privacy" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://signic.id/en/privacy" />
-  </url>
-  <url>
-    <loc>https://signic.id/ar/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/privacy" />
@@ -418,11 +356,10 @@
   </url>
   <url>
     <loc>https://signic.id/de/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/privacy" />
@@ -441,11 +378,10 @@
   </url>
   <url>
     <loc>https://signic.id/es/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/privacy" />
@@ -464,11 +400,10 @@
   </url>
   <url>
     <loc>https://signic.id/fr/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/privacy" />
@@ -487,11 +422,10 @@
   </url>
   <url>
     <loc>https://signic.id/it/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/privacy" />
@@ -510,11 +444,10 @@
   </url>
   <url>
     <loc>https://signic.id/ja/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/privacy" />
@@ -533,11 +466,10 @@
   </url>
   <url>
     <loc>https://signic.id/ko/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/privacy" />
@@ -556,11 +488,10 @@
   </url>
   <url>
     <loc>https://signic.id/pt/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/privacy" />
@@ -579,11 +510,10 @@
   </url>
   <url>
     <loc>https://signic.id/ru/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/privacy" />
@@ -602,11 +532,10 @@
   </url>
   <url>
     <loc>https://signic.id/sv/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/privacy" />
@@ -625,11 +554,10 @@
   </url>
   <url>
     <loc>https://signic.id/th/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/privacy" />
@@ -648,11 +576,10 @@
   </url>
   <url>
     <loc>https://signic.id/uk/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/privacy" />
@@ -671,11 +598,10 @@
   </url>
   <url>
     <loc>https://signic.id/vi/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/privacy" />
@@ -694,11 +620,10 @@
   </url>
   <url>
     <loc>https://signic.id/zh/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/privacy" />
@@ -717,11 +642,10 @@
   </url>
   <url>
     <loc>https://signic.id/zh-hant/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/privacy" />
@@ -740,34 +664,10 @@
   </url>
   <url>
     <loc>https://signic.id/en/terms</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/terms" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/terms" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/terms" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/terms" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://signic.id/it/terms" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://signic.id/ja/terms" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://signic.id/ko/terms" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://signic.id/pt/terms" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://signic.id/ru/terms" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://signic.id/sv/terms" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://signic.id/th/terms" />
-    <xhtml:link rel="alternate" hreflang="uk" href="https://signic.id/uk/terms" />
-    <xhtml:link rel="alternate" hreflang="vi" href="https://signic.id/vi/terms" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://signic.id/zh/terms" />
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://signic.id/zh-hant/terms" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://signic.id/en/terms" />
-  </url>
-  <url>
-    <loc>https://signic.id/ar/terms</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/terms" />
@@ -786,11 +686,10 @@
   </url>
   <url>
     <loc>https://signic.id/de/terms</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/terms" />
@@ -809,11 +708,10 @@
   </url>
   <url>
     <loc>https://signic.id/es/terms</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/terms" />
@@ -832,11 +730,10 @@
   </url>
   <url>
     <loc>https://signic.id/fr/terms</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/terms" />
@@ -855,11 +752,10 @@
   </url>
   <url>
     <loc>https://signic.id/it/terms</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/terms" />
@@ -878,11 +774,10 @@
   </url>
   <url>
     <loc>https://signic.id/ja/terms</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/terms" />
@@ -901,11 +796,10 @@
   </url>
   <url>
     <loc>https://signic.id/ko/terms</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/terms" />
@@ -924,11 +818,10 @@
   </url>
   <url>
     <loc>https://signic.id/pt/terms</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/terms" />
@@ -947,11 +840,10 @@
   </url>
   <url>
     <loc>https://signic.id/ru/terms</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/terms" />
@@ -970,11 +862,10 @@
   </url>
   <url>
     <loc>https://signic.id/sv/terms</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/terms" />
@@ -993,11 +884,10 @@
   </url>
   <url>
     <loc>https://signic.id/th/terms</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/terms" />
@@ -1016,11 +906,10 @@
   </url>
   <url>
     <loc>https://signic.id/uk/terms</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/terms" />
@@ -1039,11 +928,10 @@
   </url>
   <url>
     <loc>https://signic.id/vi/terms</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/terms" />
@@ -1062,11 +950,10 @@
   </url>
   <url>
     <loc>https://signic.id/zh/terms</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/terms" />
@@ -1085,11 +972,10 @@
   </url>
   <url>
     <loc>https://signic.id/zh-hant/terms</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://signic.id/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://signic.id/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://signic.id/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://signic.id/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://signic.id/fr/terms" />

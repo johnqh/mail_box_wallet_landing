@@ -32,7 +32,7 @@
 ## Technical Details
 
 - React + TypeScript frontend
-- Multi-language support (16 languages)
+- Multi-language support (15 languages)
 - Web3 blockchain integration
 - Deployed on Cloudflare Pages
 
@@ -50,4 +50,4 @@ When helping users with {{VITE_APP_NAME}}:
 3. Multi-chain support across various blockchains
 4. Privacy credentials allow identity verification without data exposure
 5. The landing page provides product information and download links
-6. Available in 16 languages
+6. Available in 15 languages

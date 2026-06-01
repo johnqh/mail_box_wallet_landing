@@ -1,6 +1,6 @@
 # mail-box-wallet-landing
 
-Landing page for Signic ID -- the 0xMail crypto wallet and decentralized identity solution. A React single-page application with internationalization (16 languages), dark mode, RTL support, and SEO metadata. Deployed to Cloudflare Pages.
+Landing page for Signic ID -- the 0xMail crypto wallet and decentralized identity solution. A React single-page application with internationalization (15 languages), dark mode, RTL support, and SEO metadata. Deployed to Cloudflare Pages.
 
 ## Development
 
@@ -35,7 +35,7 @@ HeroSection, FeaturesSection (6 feature cards), HowItWorksSection (4 steps), FAQ
 
 - React 19 + TypeScript + Vite 7
 - Tailwind CSS 3 with dark mode (`class` strategy)
-- i18next with 16 languages (en, ar, de, es, fr, it, ja, ko, pt, ru, sv, th, uk, vi, zh, zh-hant)
+- i18next with 15 languages (en, de, es, fr, it, ja, ko, pt, ru, sv, th, uk, vi, zh, zh-hant)
 - Arabic RTL support
 - Dependency stubs for unused `@sudobility/*` transitive deps
 - Cloudflare Pages deployment via `wrangler.jsonc`
