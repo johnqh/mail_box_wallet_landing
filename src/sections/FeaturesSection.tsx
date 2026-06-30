@@ -42,6 +42,8 @@ const FEATURES = [
   },
 ];
 
+// Decorative per-feature accent palette (intentional multi-color icon badges,
+// not chrome) — kept as raw palette per design-system migration exception.
 const colorClasses: Record<string, { bg: string; icon: string; border: string }> = {
   blue: {
     bg: 'bg-blue-100 dark:bg-blue-900/30',
@@ -82,10 +84,10 @@ export default function FeaturesSection() {
     <Section id="features" variant="feature" spacing="4xl" className="lg:py-32">
       {/* Header */}
       <div className="text-center mb-16">
-        <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+        <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
           {t('features.title', 'Everything You Need')}
         </h2>
-        <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+        <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
           {t(
             'features.description',
             'A complete solution for managing your digital identity and crypto assets in one place.'
@@ -102,17 +104,17 @@ export default function FeaturesSection() {
           return (
             <div
               key={feature.key}
-              className={`p-6 rounded-2xl border ${colors.border} bg-gray-50 dark:bg-gray-900 hover:shadow-lg transition-shadow duration-300`}
+              className={`p-6 rounded-2xl border ${colors.border} bg-muted hover:shadow-lg transition-shadow duration-300`}
             >
               <div
                 className={`w-12 h-12 rounded-xl ${colors.bg} flex items-center justify-center mb-4`}
               >
                 <Icon className={`h-6 w-6 ${colors.icon}`} />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+              <h3 className="text-xl font-semibold text-foreground mb-2">
                 {t(`features.${feature.key}.title`, feature.key)}
               </h3>
-              <p className="text-gray-600 dark:text-gray-300">
+              <p className="text-muted-foreground">
                 {t(`features.${feature.key}.description`, '')}
               </p>
             </div>

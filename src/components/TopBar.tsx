@@ -61,7 +61,7 @@ export default function TopBar() {
     <button
       type="button"
       onClick={toggleTheme}
-      className="p-2 rounded-lg text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+      className="p-2 rounded-lg text-muted-foreground hover:bg-accent transition-colors"
       aria-label={
         isDark
           ? t('theme.switchToLight', 'Switch to light mode')

@@ -4,6 +4,15 @@
  */
 
 import { initializeFirebaseService, registerServiceWorker } from '@sudobility/di_web';
+import { configureTheme } from '@sudobility/design';
+import { defaultTheme } from '@sudobility/design/themes';
+
+// Activate the design-system theme so `@sudobility/components` and the design
+// utilities render theme-aware semantic classes (bg-primary, text-foreground, …)
+// that resolve via the :root/.dark CSS variables in index.css +
+// createTailwindPreset() in tailwind.config.js — enabling all design styles and
+// light/dark.
+configureTheme(defaultTheme);
 
 /**
  * Initialize all app services and singletons.

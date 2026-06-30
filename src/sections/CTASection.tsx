@@ -9,11 +9,7 @@ export default function CTASection() {
   const { t } = useTranslation('landingPage');
 
   return (
-    <Section
-      variant="cta"
-      spacing="4xl"
-      className="lg:py-32 bg-gradient-to-br from-blue-600 via-purple-600 to-pink-600"
-    >
+    <Section variant="cta" spacing="4xl" className="lg:py-32 bg-primary">
       {/* Decorative elements */}
       <div className="absolute inset-0 bg-grid-white/[0.05] bg-[size:32px_32px]" />
       <div className="absolute top-0 left-0 w-96 h-96 bg-white/10 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />
@@ -44,7 +40,7 @@ export default function CTASection() {
           href={CTA_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="group inline-flex items-center gap-2 px-8 py-4 bg-white text-purple-600 font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+          className="group inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
         >
           <span>{t('cta.button', 'Get Started Now')}</span>
           <ArrowRightIcon className="h-5 w-5 group-hover:translate-x-1 transition-transform" />

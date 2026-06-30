@@ -28,7 +28,7 @@ function ScreenContainerInner({ children, className = '' }: ScreenContainerProps
   const isHomePage = pathParts.length <= 1;
 
   return (
-    <div className={`min-h-screen bg-gray-50 dark:bg-gray-900 flex flex-col ${className}`}>
+    <div className={`min-h-screen bg-background flex flex-col ${className}`}>
       <TopBar />
       <div className="flex-1">{children}</div>
       <Footer variant={isHomePage ? 'full' : 'compact'} />

@@ -1,6 +1,8 @@
 import { useTranslation } from 'react-i18next';
 import { Section } from '@sudobility/components';
 
+// Decorative per-step accent gradients (intentional multi-color step badges,
+// not chrome) — kept as raw palette per design-system migration exception.
 const STEPS = [
   {
     key: 'create',
@@ -31,10 +33,10 @@ export default function HowItWorksSection() {
     <Section id="how-it-works" background="default" spacing="4xl" className="lg:py-32">
       {/* Header */}
       <div className="text-center mb-16">
-        <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+        <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
           {t('howItWorks.title', 'How It Works')}
         </h2>
-        <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+        <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
           {t(
             'howItWorks.description',
             'Get started in four simple steps and take control of your digital identity.'
@@ -48,10 +50,10 @@ export default function HowItWorksSection() {
           <div key={step.key} className="relative">
             {/* Connector line (hidden on mobile and last item) */}
             {index < STEPS.length - 1 && (
-              <div className="hidden lg:block absolute top-10 left-1/2 w-full h-0.5 bg-gradient-to-r from-gray-300 dark:from-gray-700 to-transparent" />
+              <div className="hidden lg:block absolute top-10 left-1/2 w-full h-0.5 bg-gradient-to-r from-border to-transparent" />
             )}
 
-            <div className="relative bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow">
+            <div className="relative bg-card rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow">
               {/* Step number */}
               <div
                 className={`w-14 h-14 rounded-xl bg-gradient-to-br ${step.color} flex items-center justify-center mb-4`}
@@ -60,10 +62,10 @@ export default function HowItWorksSection() {
               </div>
 
               {/* Content */}
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+              <h3 className="text-xl font-semibold text-foreground mb-2">
                 {t(`howItWorks.steps.${step.key}.title`, step.key)}
               </h3>
-              <p className="text-gray-600 dark:text-gray-300">
+              <p className="text-muted-foreground">
                 {t(`howItWorks.steps.${step.key}.description`, '')}
               </p>
             </div>

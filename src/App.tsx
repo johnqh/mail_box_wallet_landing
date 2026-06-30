@@ -16,8 +16,8 @@ initializeNetworkService();
 // Loading fallback
 function LoadingFallback() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-900">
-      <div className="animate-pulse text-gray-600 dark:text-gray-400">Loading...</div>
+    <div className="min-h-screen flex items-center justify-center bg-background">
+      <div className="animate-pulse text-muted-foreground">Loading...</div>
     </div>
   );
 }
